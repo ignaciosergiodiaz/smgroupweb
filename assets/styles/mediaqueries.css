@@ -1,0 +1,320 @@
+
+/*====== MEDIA QUERIES =======*/
+/*====== TABLET ====*/
+
+@media (max-width:768px){
+    
+    .vc-image img{
+        position: relative;
+        right:-120px;
+        top:20px;
+        width: 300px;
+        height: 240px;
+    }
+
+    .content{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:50px;
+    }
+
+    .service{
+        position: relative;
+        left:-50px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width:500px){
+
+    .vc-image{
+        position: relative;
+        left:-20px;
+    }
+
+    .content{
+        position: relative;
+        left:0px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:50px;
+    }
+
+    .service{
+        position: relative;
+        left:-29px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-80px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+    
+}
+/*====== MOBILE ====*/
+/**** ================== ***/
+
+@media (max-width:425px){
+
+    .vc-image img{
+        position: relative;
+        left:80px;
+    }
+
+    .content{
+        position: relative;
+        left:10px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:50px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:50px;
+    }
+
+    .service{
+        position: relative;
+        left:-29px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-55px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:390px){
+
+    .vc-image img{
+        position: relative;
+        right:0px;
+        top:20px;
+        width: 300px;
+        height: 240px;
+    }
+
+    .content{
+        position: relative;
+        left:5px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:35px;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .text-services{
+        position: relative;
+        right:0px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+
+    .vc-image img{
+        position: relative;
+        right:0px;
+        top:20px;
+        width: 300px;
+        height: 240px;
+    }
+
+    .content{
+        position: relative;
+        left:5px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:35px;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .text-services{
+        position: relative;
+        right:0px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width:320px){
+
+    .vc-image img{
+        position: relative;
+        right:35px;
+        top:20px;
+        width: 300px;
+        height: 240px;
+    }
+
+    .content{
+        position: relative;
+        left:5px;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:35px;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+    
+}

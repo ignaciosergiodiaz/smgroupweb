@@ -1,24 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500&display=swap');
-
-*{
-    margin:0px;
-}
+@import url('./mediaqueries.css');
 
 body{
-    background-color: #FFE8F5;
+    background-color: #eab6d4 !important;
     overflow-x: hidden;
-    margin:0px;
-    padding: 0px;
+    position: relative;
+    margin:0px !important;
+    padding: 0px !important; 
     width: 100%;
     height: 100%;
+}
+
+.nav-scrollspy .active{
+    color: #ec6fb8 !important;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a{
+    color: #902a66 !important;
+}
+
+a:hover{
+    color: #ec6fb8 !important;
+}
+
+.text-caption{
+    text-shadow: 4px 4px 4px rgb(6, 6, 6);
+}
+/* ===== FOOTER ======== */
+
+.footer{
+    height: 60px;
+    background:#f5d6e8;
+}
+
+.footer p{
+    font-size:1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:10px;
 }
 
 .footer{
     height: 100px !important;
 }
-
 
 /* ===== NAV ====== */
 
@@ -54,7 +86,6 @@ body{
 /* ====== ABOUT =======  */
 
 .about{
-    background-color: #FFE8F5;
     height: auto;
     padding-bottom: 30px;
 
@@ -62,7 +93,7 @@ body{
 
 .title{
     font-family: 'Saira Condensed', sans-serif;
-        color: #FF2DA6 !important;
+    color: #FF2DA6 !important;
     font-weight: bold;
     font-size: 36px;
     height: 90px;
@@ -86,8 +117,12 @@ body{
 
 /* ===== PROJECTS ====== */
 
+.reels{
+    background-color: #b4aaec;
+    padding: 3rem;
+}
+
 .projects{
-    background-color: #FFE2F3;
     height: auto;
     padding-bottom: 20%;
     padding: 50px;
@@ -95,7 +130,8 @@ body{
 
  .video-reel1{
     height: 200px;
-    margin-left:90px;
+    position: relative;
+    left:60px;
     border-radius:30px !important;
     background-image: url('./../img/abuelo-com.png');
     background-repeat: no-repeat;
@@ -105,7 +141,8 @@ body{
 
 .video-reel2{
     height: 200px;
-    margin-left:90px;
+    position: relative;
+    left:60px;
     border-radius:30px !important;
     background-image: url('./../img/personas.png');
     background-repeat: no-repeat;
@@ -115,7 +152,8 @@ body{
 
 .video-reel3{
     height: 200px;
-    margin-left:90px;
+    position: relative;
+    left:50px;
     border-radius:30px !important;
     background-image: url('./../img/gato-nadki.png');
     background-repeat: no-repeat;
@@ -140,7 +178,6 @@ body{
     /* -webkit-box-shadow: -1px 2px 15px 5px #B6B6B6; 
     box-shadow: -1px 2px 15px 5px #B6B6B6; */
     cursor: pointer;
-
 }
 
 .article{
@@ -164,18 +201,15 @@ body{
 }
 
 .text-services{
-    text-align: center;
     color:rgb(71, 71, 71); 
     font-family: 'Saira Condensed', sans-serif;
 }
 
 .services{
-
     height: auto;
     padding-bottom: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
-
 }
 
 .contact{
@@ -189,8 +223,8 @@ body{
     font-size: 3rem;    
     color: #FF2DA6 !important;
     font-family: 'Saira Condensed', sans-serif;
-
-    font-size: 50px;
+    font-size: 3rem;
+    text-align: center;
     padding-top: 40px;
 }
 
@@ -223,7 +257,6 @@ body{
 /* ===== FOOTER   ====== */
 
 /*************************/
-
 /* ====== ICONOS ====== */
 
 #gmail-icon{
@@ -233,21 +266,19 @@ body{
 
 /* ====== ICONOS ====== */
 
-
 .container::-webkit-scrollbar {
-    width: 8px;     /* Tamaño del scroll en vertical */
-    height: 8px;    /* Tamaño del scroll en horizontal */
+    width: 8px;     /* TamaÃ±o del scroll en vertical */
+    height: 8px;    /* TamaÃ±o del scroll en horizontal */
     display: none;  /* Ocultar scroll */
 }
 
-
-/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+/* Cambiamos el fondo y agregamos una sombra cuando esta en hover */
 .container::-webkit-scrollbar-thumb:hover {
     background: #eb0404;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* Cambiamos el fondo cuando esté en active */
+/* Cambiamos el fondo cuando estÃ© en active */
 .container::-webkit-scrollbar-thumb:active {
     background-color: #f80c0c;
 }
@@ -264,264 +295,6 @@ body{
 .text-action{
     font-size: 1.8rem;
     font-family: 'Saira Condensed', sans-serif;
-
     text-decoration: none;
     color: #902a66;
-}
-
-@media  (max-width: 1024px ) {
-
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    body{
-        width: 100% !important;
-      
-    }
-
-    .video-reel1{
-        height: 200px;
-      
-    }
-
-    .video-reel2{
-        height: 200px;
-
-        border-radius:40px;
-    }
-
-    .video-reel3{
-        height: 200px;
-        border-radius:40px;
-    }
-
-   
-    h2{
-        text-align: left;
-    }
-
-    p{
-        text-align: left;
-    }
-
-    
-}
-
-
-@media  (max-width: 1160px ) {
-
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    .video-reel1{
-        height: 200px;
-        width: 80%;
-        margin-left:340px;
-        border-radius:40px 40px 40px 40px !important;
-        border-radius:40px;
-    }
-
-    .video-reel2{
-        height: 200px;
-        width: 80%;
-        margin-left:340px;
-        border-radius:40px 40px 40px 40px !important;
-    }
-
-    .video-reel3{
-        height: 200px;
-        width: 80%;
-        margin-left:340px;
-        border-radius:40px 40px 40px 40px !important;
-        border-radius:40px;
-    }
-
-    
-
-    h2{
-        text-align: left;
-    }
-
-    p{
-        text-align: left;
-    }
-
-    
-}
-
-@media  (max-width: 991px ) {
-
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-
-    .video-reel1{
-        height: 200px;
-        margin-left:230px;
-        border-radius:40px 40px 40px 40px !important;
-        border-radius:40px;
-    }
-
-    .video-reel2{
-        height: 200px;
-        margin-left:230px;
-        border-radius:40px 40px 40px 40px !important;
-    }
-
-    .video-reel3{
-        height: 200px;
-        margin-left:230px;
-        border-radius:40px 40px 40px 40px !important;
-        border-radius:40px;
-    }
-
-    .article{
-        margin-left:10px;
-        border-radius:40px;
-    }    
-
-    h2{
-        text-align: center;
-    }
-
-    p{
-        text-align: center;
-    }
-
-    
-}
-
-
-
-@media  (max-width: 425px ) {
-
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    .vc-image {
-      position: relative;
-      left:-10px;
-    }
-
-
-    .video-reel1{
-        height: 200px;
-        margin-left:0px;
-        border-radius:40px;
-    }
-
-    .video-reel2{
-        height: 200px;
-        margin-left:0px;
-        border-radius:40px;
-    }
-
-    .video-reel3{
-        height: 200px;
-        margin-left:0px;
-        border-radius:40px;
-    }
-
-    
-
-    h2{
-        text-align: center;
-    }
-
-    p{
-        text-align: center;
-    }
-
-   
-}
-
-@media  (max-width: 390px ) {
-
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    .vc-image img{
-        margin-left:-40px;
-     }
- 
-
-    body{
-        width: 100% !important;
-    }
-
-    .video-reel1{
-        height: 200px;
-        margin-left:0px;
-        border-radius:40px;
-    }
-
-    .video-reel2{
-        height: 200px;
-        margin-left:0px;
-        border-radius:40px;
-    }
-
-    .video-reel3{
-        height: 200px;
-        margin-left:0;
-        border-radius:40px;
-    }
-
-    
-    h2{
-        text-align: center;
-    }
-
-    p{
-        text-align: center;
-    }
-
-    
-
-    
-}
-
-.text-caption{
-    text-shadow: 4px 4px 4px rgb(6, 6, 6);
-}
-
-
-
-/* ===== FOOTER ======== */
-
-.footer{
-    height: 60px;
-    background:#f5d6e8;
-}
-
-.footer p{
-    font-size:1.2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding:10px;
-
 }

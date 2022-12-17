@@ -129,12 +129,14 @@ a:hover{
 /* ===== CARROUSEL ====== */
 
 .carousel img{
-    height: 100vh;
+    height: 80vh;
 }
 
 .carousel-caption{
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    top:260px;
 }
 
 /* ===== PROJECTS ====== */

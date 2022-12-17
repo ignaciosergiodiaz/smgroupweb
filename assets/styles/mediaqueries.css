@@ -2,39 +2,73 @@
 /*====== MEDIA QUERIES =======*/
 /*====== TABLET ====*/
 
-@media (max-width:768px){
-    
+@media(max-width:768px){
+    .title-projects{
+        position: relative;
+        left:40px;
+    }
+    .title-about{
+        position: relative;
+        left:10px;
+    }
+    .text-about{
+        position: relative;
+        left:60px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
     .vc-image img{
         position: relative;
-        right:-120px;
+        left:20px;
         top:20px;
-        width: 300px;
-        height: 240px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .image-service{
+        position: relative;
+        left:-5px;
+    }
+
+    .card{
+        position: relative;
+        left:-200px;
     }
 
     .content{
         position: relative;
-        left:50px;
+    }
+
+    .card-img-top{
+        position: relative;
     }
 
     .video-reel1{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel2{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel3{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .service{
         position: relative;
-        left:-50px;
+        left:-40px;
     }
 
     .text-services{
@@ -57,39 +91,77 @@
 
 @media (max-width:500px){
 
-    .vc-image{
+    .title-projects{
         position: relative;
-        left:-20px;
+        left:40px;
+    }
+    .title-about{
+        position: relative;
+        left:0px;
+    }
+    .text-about{
+        position: relative;
+        left:10px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
+    .vc-image img{
+        position: relative;
+        left:-10px;
+        top:20px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .image-service{
+        position: relative;
+        left:35px;
+    }
+
+    .card{
+        position: relative;
+        left:30px;
     }
 
     .content{
         position: relative;
-        left:0px;
+    }
+
+    .card-img-top{
+        position: relative;
     }
 
     .video-reel1{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel2{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel3{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .service{
         position: relative;
-        left:-29px;
+        left:-40px;
     }
 
     .text-services{
         position: relative;
-        left:-80px;
+        left:-20px;
     }
 
     h1{
@@ -106,43 +178,78 @@
     
 }
 /*====== MOBILE ====*/
-/**** ================== ***/
+/**** ===========***/
 
 @media (max-width:425px){
 
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
     .vc-image img{
         position: relative;
-        left:80px;
+        left:90px;
+        top:20px;
+        width: 300px;
+        height: 240px;
+    }
+
+    .image-service{
+        position: relative;
+        left:-40px;
+    }
+
+    .card{
+        position: relative;
+        left:-80px;
     }
 
     .content{
         position: relative;
-        left:10px;
+    }
+
+    .card-img-top{
+        position: relative;
     }
 
     .video-reel1{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel2{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .video-reel3{
         position: relative;
-        left:50px;
+        left:35px;
     }
 
     .service{
         position: relative;
-        left:-29px;
+        left:-40px;
     }
 
     .text-services{
         position: relative;
-        left:-55px;
+        left:-20px;
     }
 
     h1{
@@ -161,73 +268,49 @@
 
 @media (max-width:390px){
 
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
     .vc-image img{
         position: relative;
-        left:60px;
+        left:30px;
         top:20px;
         width: 300px;
         height: 240px;
     }
 
-    .content{
-        position: relative;
-        left:5px;
-    }
-
-    .video-reel1 {
-        position: relative;
-        left:60px;
-        top:20px;
-        width: 300px;
-        height: 240px;
-    }
-
-    .video-reel2 img{
-        position: relative;
-        right:10px;
-    }
-
-    .video-reel3 img{
-        position: relative;
-        right:10px;
-    }
-
-    .service{
+    .image-service{
         position: relative;
         left:-40px;
     }
 
-    .text-services{
+    .card{
         position: relative;
-        right:0px;
-    }
-
-    h1{
-        text-align: center;
-    }
-
-    h2,h3{
-        text-align: center;
-    }
-
-    p{
-        text-align: center;
-    }
-}
-
-@media (max-width:375px){
-
-    .vc-image img{
-        position: relative;
-        right:0px;
-        top:20px;
-        width: 300px;
-        height: 240px;
+        left:-80px;
     }
 
     .content{
         position: relative;
-        left:5px;
+    }
+
+    .card-img-top{
+        position: relative;
     }
 
     .video-reel1{
@@ -252,7 +335,92 @@
 
     .text-services{
         position: relative;
-        right:0px;
+        left:-20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2,h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
+    .vc-image img{
+        position: relative;
+        left:27px;
+        top:20px;
+        width: 350px;
+        height: 260px;
+    }
+
+    .image-service{
+        position: relative;
+        left:-20px;
+    }
+
+    .card{
+        position: relative;
+        left:-50px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:35px;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-20px;
     }
 
     h1{
@@ -269,18 +437,49 @@
 }
 
 @media (max-width:320px){
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
 
     .vc-image img{
         position: relative;
-        right:35px;
+        left:3px;
         top:20px;
         width: 300px;
         height: 240px;
     }
 
+    .image-service{
+        position: relative;
+        left:-40px;
+    }
+
+    .card{
+        position: relative;
+        left:-80px;
+    }
+
     .content{
         position: relative;
-        left:5px;
+    }
+
+    .card-img-top{
+        position: relative;
     }
 
     .video-reel1{

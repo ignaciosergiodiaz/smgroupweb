@@ -13,15 +13,29 @@ body{
     height: 100%;
 }
 
-.nav-scrollspy .active{
-    color: #ec6fb8 !important;
+::-webkit-scrollbar {
+    width: 4px;     /* Tamaño del scroll en vertical */
+    height: 4px;    /* Tamaño del scroll en horizontal */
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffa590 ;
+    border-radius: 4px;
 }
 
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+
+.nav-scrollspy-example .active{
+    color: #ffa590 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffa590 !important;
+    background-color: transparent !important;
+}
+
+.container{
+    overflow: scroll;
+    position: relative;
 }
 
 a{
@@ -33,9 +47,11 @@ a:hover{
     color: #ffa590 !important;
 }
 
-.text-caption{
+.carousel-caption{
     text-shadow: 4px 4px 4px rgb(6, 6, 6);
+    font-weight: bolder !important;
 }
+
 /* ===== FOOTER ======== */
 
 .footer{
@@ -71,11 +87,10 @@ a:hover{
 .nav{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-
 }
 
-.nav .active{
-    color: #FF2DA6 !important;
+.active{
+    color: #ffa590 !important;
 }
 
 .nav-right li{
@@ -100,19 +115,19 @@ a:hover{
 }
 
 .title{
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #FF2DA6 !important;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     height: 90px;
 }
 
 .title-about{
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #56413e !important;
     font-weight: 200;
 
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
     padding-bottom:30px;
 }
@@ -134,6 +149,7 @@ a:hover{
 
 .carousel-caption{
     font-family: 'Open Sans', sans-serif;
+    text-shadow: #56413e 4px 4px;
     font-size: 2rem;
     position: relative;
     top:260px;
@@ -239,11 +255,7 @@ a:hover{
     font-weight: 700;
 }
 
-.contact{
-    height: auto;
-    padding-bottom:30px;
-    background-color: #F6F6F6;
-}
+
 
 .title-reels{
     font-weight: 200;
@@ -266,6 +278,8 @@ a:hover{
 }
 
 /* ===== CONTACT  ====== */
+
+
 
 .button-submit{
     border-radius: 20px;
@@ -336,17 +350,20 @@ a:hover{
     color: #902a66;
 }
 
-
 .card{
     margin-left:5rem;
-    background: transparent !important;
+    background: #fff !important;
+    padding: 1rem;
+    box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87)  ;
+    border-radius: 20px !important;
     border: none !important;
     text-align:center;
+    margin-top:1.5rem !important;
 }
 
 .btn{
     color:#fff !important;
-    background-color: #ec6fb8 !important;
+    background-color: #ffa590 !important;
     border: none !important;
 }
 
@@ -444,3 +461,7 @@ a:hover{
         border-style: solid;
         border-color: #eab6d4;
     }
+
+    .contenedor::-webkit-scrollbar {
+    -webkit-appearance: none;
+}

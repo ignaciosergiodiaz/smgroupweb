@@ -279,7 +279,10 @@ a:hover{
 
 /* ===== CONTACT  ====== */
 
-
+.contacto{
+    background-color: #56413e;
+    height: 1200px !important;
+}
 
 .button-submit{
     border-radius: 20px;
@@ -354,11 +357,24 @@ a:hover{
     margin-left:5rem;
     background: #fff !important;
     padding: 1rem;
-    box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87)  ;
+    box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87);
     border-radius: 20px !important;
     border: none !important;
     text-align:center;
     margin-top:1.5rem !important;
+    width: 20rem !important;
+}
+
+.card-actors{
+    margin-left:5rem;
+    background: #fff !important;
+    padding: 1rem;
+    box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87);
+    border-radius: 20px !important;
+    border: none !important;
+    text-align:center;
+    margin-top:1.5rem !important;
+
 }
 
 .btn{
@@ -454,14 +470,12 @@ a:hover{
         max-width: 220px;
         margin: auto;
     }
-    button{
-        color: #fff;
-        background-color: transparent;
-        border-radius: 3px;
-        border-style: solid;
-        border-color: #eab6d4;
-    }
-
+  
     .contenedor::-webkit-scrollbar {
     -webkit-appearance: none;
+}
+
+#about{
+    position: relative;
+    top:20px;
 }

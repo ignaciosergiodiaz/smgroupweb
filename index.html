@@ -12,17 +12,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-  
+
     <script>
         $(document).ready(function(){
             $('[data-spy="scroll"]').each(function(){
                 $(this).scrollspy("refresh");
             }); 
         });
-        </script>
+    </script>
+
 </head>
 
-<body class=" col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12" > 
+<body class=" col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <!--NAV-->
     <!--===-->
     <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light shadow fixed-top" id="home">
@@ -60,7 +61,7 @@
                     <a class="nav-link" href="./casting.html">Casting</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./direccion.html">Dirección De Voces</a>
+                    <a class="nav-link" href="./direccion.html">Dirección</a>
                 </li>
                 <li class="nav-item">
                     <a  class="nav-link" href="./actores.html">Actores</a>
@@ -73,6 +74,13 @@
             <div class="nav-right-setting">
                 <div class="container">
                     <ul class="navbar-nav nav-right">
+                        <li class="nav-item ">
+                            <a href="https://www.instagram.com/vocestoons/" target="_blank">
+                                <span class="material-symbols-outlined">
+                                    notifications
+                                </span>
+                            </a>
+                        </li>
                         <li class="nav-item ">
                             <a href="https://www.instagram.com/vocestoons/" target="_blank">
                                 <img src="./assets/img/instagram.png" alt="instagram" >
@@ -90,15 +98,14 @@
         </div>
     </nav>
 
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2"  data-bs-offset="300"  tabindex="0"   data-bs-smooth-scroll="true"  >
-        
-    <!-- HEADER CAROUSEL BOOTSTRAP 5 -->
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" tabindex="0" data-bs-smooth-scroll="true">
 
-        <header class="header" style="margin-top:40px !important;">
+        <!-- HEADER CAROUSEL BOOTSTRAP 5 -->
+
+        <header class="header">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" 
-                    aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
@@ -138,169 +145,247 @@
 
         <!-- SECTIION HOME -->
 
-        <div>
-            <div id="about">
+        <section class="row about pt-5 pb-5 mb-5 mt-5" id="about"> 
+            <h2  class="title-about mt-5 pt-5">SOMOS LAS VOCES DE TU PROYECTO</h2>
+            <article class="vc-image offset-0 col-lg-2 offset-md-2 offset-lg-2 mt-5" >
+                <img src="./assets/img/vocestoons.png" alt="vocestoons-image">
+            </article>
+            <article class="content col-10 offset-1 col-md-7 offset-md-2 col-md-5 col-lg-4 offset-lg-3 mt-1 pb-5 mt-5">
+                <p class="text-about">
+                    Somos una empresa que presta servicios de voice acting, lo que permite externalizar 
+                    toda la producción de voces de tus proyectos de animación en un solo 
+                    lugar de manera rápida, eficaz y profesional. Contamos con un staff de actrices 
+                    y actores de gran nivel profesional de Chile y México.
+                </p>
+            </article>
+        </section>
 
-            <div   class="pt-4 pb-3" style="position: relative;top:80px;">
-                <section class="row about pt-5 pb-5 mb-5 mt-2">
-                    <h2  class="title-about mt-0 pt-0">SOMOS LAS VOCES DE TU PROYECTO</h2>
-                    <article class="vc-image offset-0 col-lg-2 offset-md-2 offset-lg-2 mt-5" >
-                        <img src="./assets/img/vocestoons.png" alt="vocestoons-image">
-                    </article>
-                    <article class="content col-10 offset-1 col-md-7 offset-md-2 col-md-5 col-lg-4 offset-lg-3 mt-1 pb-5 mt-5">
-                        <p class="text-about">
-                            Somos una empresa que presta servicios de voice acting, lo que permite externalizar 
-                            toda la producción de voces de tus proyectos de animación en un solo 
-                            lugar de manera rápida, eficaz y profesional. Contamos con un staff de actrices 
-                            y actores de gran nivel profesional de Chile y México.
-                        </p>
-                    </article>
-                </section>
-            </div>
+        <!--PROJECTS-->
+        <!--=========-->
 
-            <!--PROJECTS-->
-            <!--=========-->
+        <section id="reels" class="container mt-5 mb-5 pt-5 pb-5">
 
-            <div id="reels" class="container mt-5 mb-5 pt-5 pb-5">
-
-                <h2 class="title-about titulo-proyectos mt-5 pt-5">NUESTROS PROYECTOS</h2>
+            <h2 class="title-about titulo-proyectos mt-5 pt-5">Proyectos en los que hemos trabajado</h2>
                 
                 <div class="row offset-md-6 offset-lg-0 offset-xl-0 reel services mt-1 mb-5 pt-5 mb-5">
                     
-                    <div class="card" style="width: 20rem;">
-                        <a href="./casting.html" class="mt-6" >
-                            <img src="./assets/img/abuelo-com.png" style="position: relative; top:0px;" class="card-img-top" alt="...">
-                            <div class="card-body mt-5">
-                                <h5 class="card-title">ABUELOCOM</h5>
-                                <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
-                                <a href="#" class="btn btn-primary mt-5">Saber más </a>
-                            </div>
-                        </a>
-                    </div>
+                    <button type="button" class="card"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/img/abuelo-com.png" style="position: relative; top:0px;" class="card-img-top" alt="...">
+                        <div class="card-body mt-5">
+                            <h5 class="card-title">ABUELOCOM</h5>
+                            <p class="card-text">Abuelo Com se compromete a una simple tarea: hacer click en la tesis de su nieto cuando esta termine de grabar.</p>
+                            <a href="#" class="btn btn-primary mt-5">Saber más </a>
+                        </div>
+                    </button>
 
-                    <div class="card" style="width: 20rem;">
-                        <a href="./direcciondevoces.html">
+                    <button type="button" class="card"  data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         <img src="./assets/img/gato-nadki.png" style="position: relative; top:0px;" class="card-img-top" alt="...">
                         <div class="card-body mt-5">
                             <h5 class="card-title">NADKI MÁGICO</h5>
-                            <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
+                            <p class="card-text">Nadki, un gato con asombrosos poderes mágicos, pero que piensa que la vida es una miseria.Cuando la aparición de una gata</p>
                             <a href="#" class="btn btn-primary mt-5">Saber más</a>
                         </div>
-                        </a>
-                    </div>
+                    </button>
 
-                    <div class="card" style="width: 20rem;">
-                        <a href="./team.html">
+                    <button type="button" class="card"  data-bs-toggle="modal" data-bs-target="#exampleModal3">
                         <img src="./assets/img/personas.png" style="position: relative; top:0px;" class="card-img-top" alt="...">
-                            <div class="card-body mt-5">
-                            <h5 class="card-title">PERSONAS CETÁCIAS</h5>
-                            <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
-                            <a href="#" class="btn btn-primary mt-5">Saber más</a>
-                            </div>
-                        </a>
-                    </div>
-
-                  
-                </div>    
-
-            </div>
-
-            <!-- SERVICES -->
-            <!---====== -->
-        
-            <div id="services" class="container mt-5 mb-5 pt-5 pb-5">
-
-                <h2 class="title-about titulo-servicios mt-5 pt-5">SERVICIOS VOCESTOONS</h2>
-                
-                <div class="row offset-md-6 offset-lg-0 offset-xl-0 col-md-12 col-lg-12 reel services mt-2 mb-5 pt-5 mb-5">
-                    
-                    <div class="card" style="width: 20rem;">
-                        <a href="./casting.html" class="mt-6" >
-                            <img src="./assets/img/casting.svg" style="position: relative; top:0px;" class="card-img-top" alt="...">
-                            <div class="card-body mt-5">
-                                <h5 class="card-title">CASTING</h5>
-                                <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
-                                <a href="#" class="btn btn-primary mt-5">Saber más </a>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card" style="width: 20rem;">
-                        <a href="./direcciondevoces.html">
-                        <img src="./assets/img/direction.svg" style="position: relative; top:0px;" class="card-img-top" alt="...">
                         <div class="card-body mt-5">
-                            <h5 class="card-title">DIRECCIÓN DE VOCES</h5>
-                            <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
-                            <a href="#" class="btn btn-primary mt-5">Saber más</a>
+                        <h5 class="card-title">PERSONAS CETÁCIAS</h5>
+                        <p class="card-text">El jefe de la empresa tiene que lidiar con McClane, el empleado más problemático de la oficina. Pero hay un gran detalle</p>
+                        <a href="#" class="btn btn-primary mt-5">Saber más</a>
                         </div>
-                        </a>
-                    </div>
+                    </button>
 
-                    <div class="card" style="width: 20rem;">
-                        <a href="./team.html">
-                        <img src="./assets/img/team.svg" style="position: relative; top:0px;" class="card-img-top" alt="...">
-                            <div class="card-body mt-5">
-                            <h5 class="card-title">NUESTRO TEAM</h5>
-                            <p class="card-text">Te imvitamos a conocer lo que hacemos.</p>
-                            <a href="#" class="btn btn-primary mt-5">Saber más</a>
-                            </div>
-                        </a>
-                    </div>
                 </div>    
-            </div>
 
-            <!-- FOOTER -->
+        </section>
+
+        <!-- Modal 1 -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Abuelo Com</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Actores</h3>
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">🔥 Pablo Com - Felipe Waldhorn @felipewhmix</li>
+                        <li class="list-group-item">🔥 Abuelo Com - Seba Dupont @sebadupont1979</li>
+                        <li class="list-group-item">🔥 Enriqueta  - Muriel Benavides @piyoasdf</li>
+                    </ul>
+
+                    <br>
+
+                    <iframe width="470" height="315" src="https://www.youtube.com/embed/l_ycC5awBzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Modal 2 -->
+
+         <div class="modal fade" id="exampleModal2" tabindex="1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Nadki</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body mb-3 mt-3">
+                    
+                    <h3>Actores</h3>
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">🔥 Kiwa - Felipe Waldhorn @felipewhmix</li>
+                        <li class="list-group-item">🔥 Nadki - Seba Dupont @sebadupont1979</li>
+                        <li class="list-group-item">🔥 Luna - Muriel Benavides @piyoasdf</li>
+                    </ul>
+
+                    <br>
+                    <iframe width="470" height="315" src="https://www.youtube.com/embed/GwiW2ywJ46o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+
+        <div class="modal fade" id="exampleModal3" tabindex="2" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Personas Cetáceas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Actores</h3>
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">🔥 McClane - Sebastián Dupont</li>
+                        <li class="list-group-item">🔥 Archer- Daniel Erasmy</li>
+                        <li class="list-group-item">🔥 Mirna - Muriel Benavides @piyoasdf</li>
+                    </ul>
+
+                    <br>
+
+                    <iframe width="470" height="315" src="https://www.youtube.com/embed/fKhv6L_2C-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICES -->
+        <!---====== -->
+    
+        <section id="services" class="container mt-5 mb-5 pt-5 pb-5">
+
+            <h2 class="title-about titulo-servicios mt-5 pt-5">Servicios de VocesToons</h2>
+            
+            <div class="row offset-md-6 offset-lg-0 offset-xl-0 col-md-12 col-lg-12 reel services mt-2 mb-5 pt-4 mb-5">
+                
+                <div class="card">
+                    <a href="./casting.html" class="mt-6" >
+                        <img src="./assets/img/casting.svg" class="card-img-top" alt="...">
+                        <div class="card-body mt-5">
+                            <h5 class="card-title">CASTING</h5>
+                            <p class="card-text">Nuestra visión es velar por que tus proyectos tengan una voz única para cada uno de tus personajes animados</p>
+                            <a href="#" class="btn btn-primary mt-5">Saber más </a>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="./direcciondevoces.html">
+                    <img src="./assets/img/direction.svg" class="card-img-top" alt="...">
+                    <div class="card-body mt-5">
+                        <h5 class="card-title">DIRECCIÓN DE VOCES</h5>
+                        <p class="card-text">El director de doblaje se encarga de supervisar todo lo que tenga que ver con el proceso de doblaje de voz</p>
+                        <a href="#" class="btn btn-primary mt-5">Saber más</a>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="./actores.html">
+                    <img src="./assets/img/team.svg" class="card-img-top" alt="...">
+                        <div class="card-body mt-5">
+                        <h5 class="card-title">ACTORES</h5>
+                        <p class="card-text">Te informamos de los actores de voice acting que han trabajados con nostros para que veas su trabajo</p>
+                        <a href="#" class="btn btn-primary mt-5">Saber más</a>
+                        </div>
+                    </a>
+                </div>
+
+            </div>    
+                
+        </section>
+
+        <!-- FOOTER -->
         <!---====== -->
         
         <footer class="footer pt-5 pb-5 mt-5">
- 
-                        <div class="row mt-5 pt-5">
-                            <div class="col-lg-3 offset-lg-1">
-                                <img src="./assets/img/logovc-light.png" width="250" height="90"  alt="">
-                            
-                                <div class="d-flex" style="position: relative; left:30px;">
-                                    <li class="nav-item">
-                                        <a href="https://www.instagram.com/vocestoons/" target="_blank">
-                                            <img src="./assets/img/instagram-light.png" alt="instagram" >
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" style="position: relative; left:10px;">
-                                        <a href="mailto:contacto@vocestoons.cl"> 
-                                            <img src="./assets/img/email-light.png" id="gmail-icon" alt="gmail">
-                                        </a>
-                                    </li>
-                                </div> 
-                            </div>
 
-                            <div class="links-footer col-lg-2">
-                                <h2>Compañía</h2> 
-                                <li><a href="#about">Quiénes Somos</a></li>
-                                <li><a href="#reels">Reels</a></li>
-                                <li><a href="./team.html">Nuestro Team</a></li>
-                            </div>
-
-                            <div class="links-footer col-lg-3">
-                                <h2>Contacto</h2> 
-                                <h2><i class="fas fa-comment-alt-exclamation    "></i></h2> 
-                                <li><a href="#about">Siguenos @vocestoons</a></li>
-                                <li><a href="#reels">Escribenos a : contacto@vocestoons.cl</a></li>
-                            </div>
-
-                            <div class="links-footer col-lg-3">
-                                <h2>Servicios</h2> 
-                                <li><a href="#about">Voces para cartoons</a></li>
-                                <li><a href="#reels">Calidad de actores</a></li>
-                                <li><a href="./team.html">Mejores estrategias</a></li>
-                            </div>
-                        </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-lg-3 offset-lg-1">
+                            <img src="./assets/img/logovc-light.png" width="250" height="90"  alt="">
                         
+                            <div class="d-flex" style="position: relative; left:30px;">
+                                <li class="nav-item">
+                                    <a href="https://www.instagram.com/vocestoons/" target="_blank">
+                                        <img src="./assets/img/instagram-light.png" alt="instagram" >
+                                    </a>
+                                </li>
+                                <li class="nav-item" style="position: relative; left:10px;">
+                                    <a href="mailto:contacto@vocestoons.cl"> 
+                                        <img src="./assets/img/email-light.png" id="gmail-icon" alt="gmail">
+                                    </a>
+                                </li>
+                            </div> 
+                        </div>
+
+                        <div class="links-footer col-lg-2">
+                            <h2>Compañía</h2> 
+                            <li><a href="#about">Quiénes Somos</a></li>
+                            <li><a href="#reels">Reels</a></li>
+                            <li><a href="./team.html">Nuestro Team</a></li>
+                        </div>
+
+                        <div class="links-footer col-lg-3">
+                            <h2>Contacto</h2> 
+                            <h2><i class="fas fa-comment-alt-exclamation    "></i></h2> 
+                            <li><a href="#about">Siguenos @vocestoons</a></li>
+                            <li><a href="#reels">Escribenos a : contacto@vocestoons.cl</a></li>
+                        </div>
+
+                        <div class="links-footer col-lg-3">
+                            <h2>Servicios</h2> 
+                            <li><a href="#about">Voces para cartoons</a></li>
+                            <li><a href="#reels">Calidad de actores</a></li>
+                            <li><a href="./team.html">Mejores estrategias</a></li>
+                        </div>
                     </div>
+                    
                 </div>
-     
-    </footer>
-    <footer class="footer pb-3">
-        <p class="text-center text-footer" style="position:relative ; top:18px;">© 2022 VocesToons. Todos los derechos Reservados.</p>
-    </footer>
-</div>
+            </div>
+    
+        </footer>
+
+        <footer class="footer pb-3">
+            <p class="text-center text-footer" style="position:relative ; top:18px;">© 2022 VocesToons. Todos los derechos Reservados.</p>
+        </footer>
+    </main>
 </body>
 </html>

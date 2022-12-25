@@ -3,34 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500&display=swap');
 @import url('./mediaqueries.css');
 
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 body{
-    background-color: #F6F6F6 !important;
+    background-color: #FFF9FC !important;
     overflow-x: hidden;
     position: relative;
     margin:0px !important;
     padding: 0px !important; 
     width: 100%;
     height: 100%;
+    font-family: 'OpenSans', sans-serif !important;
 }
-
-::-webkit-scrollbar {
-    width: 4px;     /* Tamaño del scroll en vertical */
-    height: 4px;    /* Tamaño del scroll en horizontal */
-    display: none;
-}
-::-webkit-scrollbar-thumb {
-    background: #ffa590 ;
-    border-radius: 4px;
-}
-
 
 .nav-scrollspy-example .active{
-    color: #ffa590 !important;
+    color: #F4259C  !important;
+    background-color: #F4259C !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #ffa590 !important;
-    background-color: transparent !important;
+    color: #F4259C  !important;
+    background-color: #F4259C !important;
 }
 
 .container{
@@ -39,16 +36,16 @@ body{
 }
 
 a{
-    color: #56413e !important;
+    color: #2F2F2F !important;
     text-decoration: none !important;
 }
 
 a:hover{
-    color: #ffa590 !important;
+    color: #F4259C !important;
 }
 
 .carousel-caption{
-    text-shadow: 4px 4px 4px rgb(6, 6, 6);
+    /* text-shadow: 4px 4px 4px rgb(6, 6, 6); */
     font-weight: bolder !important;
 }
 
@@ -56,7 +53,9 @@ a:hover{
 
 .footer{
     height: auto;
-    background-color: #8785A2!important;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#FF86C6 !important;
     box-shadow: 4px 4px 4px 4px rgba(219, 219, 219, 0.328) ;
     color:#fff;
 }
@@ -72,25 +71,36 @@ a:hover{
 
 .footer p{
     font-size:1.2em;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     padding:10px;
+}
+
+.footer-copy{
+    background-color: #FF86C6 !important;
+    height: 68px;
+    color:#FFF !important;
+}
+.footer-copy p{
+    position: relative;
+    top:24px;
 }
 
 /* ===== NAV ====== */
 
 .navbar{
-    background-color: #F6F6F6 !important;
-    box-shadow:  5px 5px 5px rgb(180, 180, 180); 
+    background-color: #FFF9FC !important;
+    box-shadow: 5px 5px 5px rgb(180, 180, 180); 
     z-index: 999;
 }
 
 .nav{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
 }
 
 .active{
-    color: #ffa590 !important;
+    color: #F4259C !important;
+    border-bottom:4px solid #F4259C ;
 }
 
 .nav-right li{
@@ -126,7 +136,6 @@ a:hover{
     font-family: 'Open Sans', sans-serif;
     color: #56413e !important;
     font-weight: 200;
-
     font-size: 2.2rem;
     text-align: center;
     padding-bottom:30px;
@@ -144,15 +153,14 @@ a:hover{
 /* ===== CARROUSEL ====== */
 
 .carousel img{
-    height: 80vh;
+    height: 100vh;
 }
 
 .carousel-caption{
     font-family: 'Open Sans', sans-serif;
-    text-shadow: #56413e 4px 4px;
     font-size: 2rem;
     position: relative;
-    top:260px;
+    top:400px;
 }
 
 /* ===== PROJECTS ====== */
@@ -168,7 +176,7 @@ a:hover{
     padding: 50px;
 }
 
- .video-reel1{
+.video-reel1{
     height: 200px;
     position: relative;
     left:60px;
@@ -212,7 +220,6 @@ a:hover{
     /* -webkit-box-shadow: -1px 2px 15px 5px #B6B6B6; 
     box-shadow: -1px 2px 15px 5px #B6B6B6; */
     cursor: pointer;
-
 }
 
 .video-reel3:hover {
@@ -255,8 +262,6 @@ a:hover{
     font-weight: 700;
 }
 
-
-
 .title-reels{
     font-weight: 200;
     font-size: 3rem;    
@@ -289,7 +294,7 @@ a:hover{
     width: 198px;
     height: 59px;
     border:none !important;
-    background-color:#9180F8;
+    background-color:#EE6983 ;
     color:#fff;
     float: right;
 }
@@ -355,7 +360,7 @@ a:hover{
 
 .card{
     margin-left:5rem;
-    background: #fff !important;
+    background: #FFF9FC !important;
     padding: 1rem;
     box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87);
     border-radius: 20px !important;
@@ -367,19 +372,19 @@ a:hover{
 
 .card-actors{
     margin-left:5rem;
-    background: #fff !important;
+    background: #FFF9FC !important;
     padding: 1rem;
     box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87);
     border-radius: 20px !important;
     border: none !important;
     text-align:center;
     margin-top:1.5rem !important;
-
 }
 
 .btn{
     color:#fff !important;
-    background-color: #ffa590 !important;
+    background-color: #F4259C !important;
+    border-radius: 32px !important;
     border: none !important;
 }
 
@@ -392,90 +397,18 @@ a:hover{
     top:40px;
 }
 
-.card{
-    background-color: white;
+
+
+/** ==================== *****/
+/** EFECTO SCROLL **/
+
+::-webkit-scrollbar {
+    width: 4px;     /* Tamaño del scroll en vertical */
+    height: 4px;    /* Tamaño del scroll en horizontal */
+    display: none;
 }
 
-.content-card{
-    background-color: #fff !important;
-}
-
-.image{
-    width: 250px !important;
-}
-
-*{margin: 0;padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;}
-    
-    .contenedor{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    .contenedor figure{
-       position:relative;
-        height: auto;
-        cursor: pointer;
-        width: 350px;
-        overflow: hidden;
-        border-radius: 8px;
-        /* box-shadow: 0px 15px 25px rgba(0,0,0,0.50); */
-    }
-    .contenedor figure img{
-        width: 100%;
-        height: 100%;
-        position:relative;
-        transition: all 400ms ease-out;
-        will-change: transform;
-    }
-    .contenedor figure .capa{
-        position: absolute;
-        top: -20px;
-        width: 100%;
-        border-radius: 8px;
-        height: 120%;
-        background: rgba(102, 73, 102, 0.7);
-        transition: all 400ms ease-out;
-        opacity: 0;
-        visibility: hidden;
-       text-align: center;
-    }
-    .contenedor figure:hover > .capa {
-        opacity: 1;
-        visibility: visible;
-    
-    }
-    .contenedor figure:hover > .capa h3{
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
-    .contenedor figure:hover > img{
-        transform: scale(1.3);
-    }
-    .contenedor figure .capa h3{
-        color: #fff;
-        font-weight: 400;
-        margin-bottom: 120px;
-        transition: all 400ms ease-out;
-         margin-top: 30px;
-    }
-    .contenedor figure .capa p{
-        color: #fff;
-        font-size: 15px;
-        line-height: 1.5;
-        width: 100%;
-        max-width: 220px;
-        margin: auto;
-    }
-  
-    .contenedor::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-#about{
-    position: relative;
-    top:20px;
+::-webkit-scrollbar-thumb {
+    background: #ffa590 ;
+    border-radius: 4px;
 }

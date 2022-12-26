@@ -785,6 +785,11 @@
 
 @media (max-width:390px){
 
+    .links-footer{
+        text-align: center;
+        padding-top:30px;
+    }
+
     .text-about{
         position: relative;
         left:0px;
@@ -806,10 +811,10 @@
 
     .vc-image img{
         position: relative;
-        left:30px;
+        left:-10px;
         top:20px;
-        width: 300px;
-        height: 240px;
+        width: 420px;
+        height: 340px;
     }
 
     .image-service{
@@ -819,7 +824,7 @@
 
     .card{
         position: relative;
-        left:-80px;
+        left:-40px;
     }
 
     .content{
@@ -866,7 +871,10 @@
     p{
         text-align: center;
     }
+    
 }
+
+
 
 @media (max-width:375px){
     

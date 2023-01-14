@@ -1,35 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500&display=swap');
+
 @import url('./mediaqueries.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h2{
+    color:#52397D !important;
+    font-weight: bolder !important;
+   
 }
 
 body{
-    background-color: #FFF9FC !important;
+    background-color: #F6F0FF !important;
     overflow-x: hidden;
     position: relative;
     margin:0px !important;
     padding: 0px !important; 
     width: 100%;
     height: 100%;
-    font-family: 'OpenSans', sans-serif !important;
+    
 }
 
-.nav-scrollspy-example .active{
-    color: #F4259C  !important;
-    background-color: #F4259C !important;
+.carrousel1{
+    background-image: url('./../img/carousel1.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #F4259C  !important;
-    background-color: #F4259C !important;
+.title-services{
+    position: relative;
+    top:70px;
 }
+
+.title-card-services{
+    position: relative;
+    right:20px;
+}
+
+.title-service2{
+    position: relative;
+    left:90px;
+}
+
+.text-service2{
+    position: relative;
+    left:-140px;
+}
+
+.lead{
+    text-align: left !important;
+}
+
+
 
 .container{
     overflow: scroll;
@@ -42,15 +73,19 @@ a{
 }
 
 a:hover{
-    color: #F4259C !important;
-    border-bottom: 3px solid #FF2DA6;
-
+    color: #98822C !important;
 }
 
-.active{
-    color: #F4259C !important;
-    border-bottom:3px solid #F4259C;
+.header-text{
+    position: relative;
+    top:-290px;
 }
+
+.carousel-image{
+     object-fit: contain;
+}
+
+
 
 .carousel-caption{
     /* text-shadow: 4px 4px 4px rgb(6, 6, 6); */
@@ -63,9 +98,9 @@ a:hover{
     height: auto;
     padding-top:2rem;
     padding-bottom:2rem;
-    background-color:#FF86C6 !important;
+    background-color:#EDE0FF !important;
     box-shadow: 4px 4px 4px 4px rgba(219, 219, 219, 0.328) ;
-    color:#fff;
+    color:#52397D;
 }
 
 .footer li{
@@ -74,17 +109,17 @@ a:hover{
 
 .footer a{
     text-decoration: none ;
-    color:#fff !important;
+    color:#52397D !important;
 }
 
 .footer p{
     font-size:1.2em;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding:10px;
 }
 
 .footer-copy{
-    background-color: #FF86C6 !important;
+    background-color: #52397D !important;
     height: 68px;
     color:#FFF !important;
 }
@@ -95,14 +130,25 @@ a:hover{
 
 /* ===== NAV ====== */
 
+.active{
+    color: #7957b5 !important;
+    font-weight: 400 !important;
+}
+
 .navbar{
-    background-color: #FFF9FC !important;
+    background-color: #F6F0FF !important;
     box-shadow: 5px 5px 5px rgb(180, 180, 180); 
     z-index: 999;
+
+}
+
+.navbar a{
+    color: #52397D !important;
+    font-weight: 100 ;
+    font-size: 16px !important ;
 }
 
 .nav{
-    font-family: 'OpenSans', sans-serif;
     font-weight: lighter;
 }
 
@@ -127,25 +173,18 @@ a:hover{
     padding-top:5rem;
 }
 
-.title{
-    font-family: 'Open Sans', sans-serif;
-    color: #FF2DA6 !important;
-    font-weight: bold;
-    font-size: 32px;
-    height: 90px;
-}
 
 .title-about{
     font-family: 'Open Sans', sans-serif;
-    color: #56413e !important;
+    color: #52397D !important;
     font-weight: 200;
-    font-size: 2.2rem;
+    font-size: 28px;
     text-align: center;
     padding-bottom:30px;
 }
 
 .text-about{
-    font-size: 1.3rem;
+    font-size: 16px;
 }
 
 .content{
@@ -154,6 +193,17 @@ a:hover{
 }
 
 /* ===== CARROUSEL ====== */
+
+.carrousel-title{
+    font-size: 48px;
+}
+
+.carrousel-subtitle{
+    font-size:32px;
+    position: relative;
+    left:5px;
+    top:-10px;
+}
 
 .carousel img{
     height: 100vh;
@@ -236,54 +286,33 @@ a:hover{
     border-radius:30px;
 }
 
-.title-projects{
-    font-family: 'Saira Condensed', sans-serif;
-    color: #56413e !important;
-    font-weight: 200;
-    position: relative;
-    right:60px !important;
-    font-size: 3rem;
-    text-align: center;
-    padding-bottom:30px;
-}
 
 /* ===== SERVICES ====== */
 
+.servicios{
+    background-image:url('./../img/background-servicios.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+}
+
+
+
 .text{
-    text-align: center;
+    text-align: left !important;
 }
 
 .text-services{
     color:rgb(71, 71, 71); 
-    font-family: 'Saira Condensed', sans-serif;
 }
 
 .services{
     height: auto;
     padding-bottom: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
 }
 
-.title-reels{
-    font-weight: 200;
-    font-size: 3rem;    
-    color: #FF2DA6 !important;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 40px;
-}
 
-.title-services{
-    font-weight: 200;
-    font-size: 3rem;    
-    color: #FF2DA6 !important;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 40px;
-}
 
 /* ===== CONTACT  ====== */
 
@@ -297,7 +326,7 @@ a:hover{
     width: 198px;
     height: 59px;
     border:none !important;
-    background-color:#EE6983 ;
+    background-color:#98822C ;
     color:#fff;
     float: right;
 }
@@ -314,9 +343,7 @@ a:hover{
 ::placeholder{
     position: relative;
     left:20px;
-}
-
-/* ===== FOOTER   ====== */
+} 
 
 /*************************/
 /* ====== ICONOS ====== */
@@ -334,43 +361,41 @@ a:hover{
     display: none;  /* Ocultar scroll */
 }
 
-/* Cambiamos el fondo y agregamos una sombra cuando esta en hover */
 .container::-webkit-scrollbar-thumb:hover {
     background: #eb0404;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* Cambiamos el fondo cuando estÃ© en active */
 .container::-webkit-scrollbar-thumb:active {
-    background-color: #f80c0c;
+    background-color: #52397D;
 }
 
-/* ===== media queries ==== */
-
-.title-action{
-    color: #FF2DA6;
-    font-size: 3rem;
-    font-family: 'Saira Condensed', sans-serif;
-
-}
 
 .text-action{
     font-size: 1.8rem;
-    font-family: 'Saira Condensed', sans-serif;
     text-decoration: none;
     color: #902a66;
 }
 
 .card{
     margin-left:5rem;
-    background: #FFF9FC !important;
+    background: transparent !important;
     padding: 1rem;
-    box-shadow: -2px -2px 12px -5px rgba(185,185,185,0.87);
     border-radius: 20px !important;
     border: none !important;
     text-align:center;
     margin-top:1.5rem !important;
     width: 20rem !important;
+}
+
+.card-title{
+    color: #52397D !important;
+    font-weight: bolder !important;
+}
+
+.card-text{
+    font-size: 16px !important;
+    font-weight: 400 !important;
 }
 
 .card-actors{
@@ -386,7 +411,7 @@ a:hover{
 
 .btn{
     color:#fff !important;
-    background-color: #F4259C !important;
+    background-color: #52397D !important;
     border-radius: 32px !important;
     border: none !important;
 }
@@ -395,13 +420,9 @@ a:hover{
     color:rgb(27, 18, 37) !important;
 }
 
-.title-vc{
-    position: relative;
-    top:40px;
-}
 
-/** ==================== *****/
-/** EFECTO SCROLL **/
+/**** ==================== *****/
+/**** EFECTO SCROLL **/
 
 ::-webkit-scrollbar {
     width: 4px;     /* Tamaño del scroll en vertical */

@@ -1,5 +1,103 @@
 /*====== MEDIA QUERIES =======*/
 
+
+@media(max-width:1500px){
+    .text-about{
+        position: relative;
+        left:0px;
+        width: 100% !important;
+    }
+    .title-service{
+        position: relative;
+        left:20px;
+    }
+
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+  
+   .lead{
+        position: relative;
+        left:15px;
+    }
+
+    .vc-image img{
+        position: relative;
+        left:-90px;
+        top:20px;
+        width: 410px;
+        height: 320px;
+    }
+
+    .image-service{
+        position: relative;
+        left:-40px;
+    }
+
+    .card{
+        position: relative;
+        left:30px;
+        padding-top: 1.5rem;
+        width: 10rem;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .video-reel1{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel2{
+        position: relative;
+        left:35px;
+    }
+
+    .video-reel3{
+        position: relative;
+        left:35px;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .text-services{
+        position: relative;
+        left:-20px;
+    }
+
+    .text-about{
+        text-align: left;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+
+    .header-text h2{
+        position: relative;
+        left:650px;
+        color:#fff !important;
+    }
+
+    p{
+        text-align: center;
+    }
+
+}
+
+
+
 @media(max-width:1024px){
     .text-about{
         position: relative;
@@ -81,12 +179,15 @@
         text-align: center;
     }
 
-    h2,h3{
+    p{
         text-align: center;
     }
 
-    p{
-        text-align: center;
+    .header-text h2{
+        position: relative;
+        left:360px;
+        text-align: left ;
+        color:#fff !important;
     }
 
 }
@@ -191,6 +292,12 @@
         text-align: center;
     }
 
+    .header-text h2{
+        position: relative;
+        left:0px;
+        text-align: center ;
+        color:#fff !important;
+    }
    
 }
 
@@ -604,32 +711,26 @@
         position: relative;
         left:40px;
     }
+
     .title-about{
         position: relative;
         left:0px;
     }
+
+
     .text-about{
         position: relative;
         left:10px;
     }
+
     .title-service{
         position: relative;
         left:20px;
     }
   
-   .lead{
-        position: relative;
-        left:15px;
-    }
+ 
 
-    .vc-image img{
-        position: relative;
-        left:-10px;
-        top:20px;
-        width: 500px;
-        height: 400px;
-    }
-
+  
     .image-service{
         position: relative;
         left:16px;
@@ -678,6 +779,12 @@
         left:-20px;
     }
 
+    .links-footer{
+        position: relative;
+        left:-30px;
+        text-align: center !important;
+    }
+
     h1{
         text-align: center;
     }
@@ -687,7 +794,54 @@
     }
 
     p{
-        text-align: center;
+        text-align: center !important;
+        font-size:1rem !important;
+        padding:1rem !important;
+    }
+
+    .service{
+        padding-top: 2rem ;
+        position: relative;
+        left:10px;
+    }
+
+    .clientes{
+        background-color: rgb(237, 233, 190) !important;
+        color:#fff !important;
+        position:relative;
+        top:420px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:120px;
+    }
+
+    .title-footer{
+        position: relative;
+        right:40px;
+    }
+
+  
+
+    .text-footer-email{
+        position: relative;
+        left:130px;
+    }
+
+    .footer{
+        position: relative;
+        top:350px;
+    }
+
+    .footer-copy{
+        position: relative;
+        top:350px;
+    }
+
+    .image-service{
+        position: relative;
+        left:70px;
     }
     
 }

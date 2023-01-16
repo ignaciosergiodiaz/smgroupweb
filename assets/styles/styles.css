@@ -38,7 +38,7 @@ body{
 
 .title-services{
     position: relative;
-    top:70px;
+
 }
 
 .title-card-services{
@@ -196,6 +196,7 @@ a:hover{
 
 .carrousel-title{
     font-size: 48px;
+    color : #fff !important;
 }
 
 .carrousel-subtitle{

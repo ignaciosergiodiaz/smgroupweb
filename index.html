@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" >
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </head>
 
@@ -27,68 +27,31 @@
    
     <!--NAV-->
     <!--===-->
-    
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light shadow fixed-top">
-
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#home">
-                <img src="./assets/img/logo.svg"  alt="logo">
+    <header class="nav navbar p-3 bg-light fixed-top shadow">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="./assets/img/logo.svg" alt="">
             </a>
-      
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Quiénes Somos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#clientes">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#home" class="nav-link px-2 text-secondary">Inicio</a></li>
+              <li><a href="#about" class="nav-link px-2 text-white">Quiénes Somos</a></li>
+              <li><a href="#services" class="nav-link px-2 text-white">Servicios</a></li>
+              <li><a href="#clients" class="nav-link px-2 text-white">Clientes</a></li>
+              <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
     
-                <div class="nav-right-setting">
-                    <ul class="navbar-nav nav-right">
-                        <li class="nav-item ">
-                            <a href="https://www.instagram.com/vocestoons/">
-                                <img src="./assets/img/facebook.svg" style="position:relative; top:1px;" alt="instagram" >
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="https://www.instagram.com/vocestoons/">
-                                <img src="./assets/img/twitter.svg" style="position:relative; top:2px;" alt="instagram" >
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="https://www.instagram.com/vocestoons/">
-                                <img src="./assets/img/linkedin.svg" style="position:relative; top:-5px;" alt="instagram" >
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="mailto:contacto@vocestoons.cl"> 
-                                <img src="./assets/img/email.svg" style="position:relative; top:2px;" id="gmail-icon" alt="gmail">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
+        
+    
+            <div class="text-end">
+              <!-- <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button> -->
             </div>
+          </div>
         </div>
-    </nav>
+      </header>
+    
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" tabindex="0" data-bs-smooth-scroll="true">
 
@@ -205,7 +168,7 @@
 
         <br>
 
-        <div id="clientes" class="pb-5 pt-5 mt-5 mb-4 ">
+        <div id="clients" class="pb-5 pt-5 mt-5 mb-4 ">
             <h2 class="title-clients">¿Quiénes han confiado <br> en nosotros?</h2>
             
             <div class="clients row pt-2">

@@ -540,7 +540,6 @@
 
 }
 
-
 @media (max-width:500px){
 
     .title{
@@ -549,27 +548,30 @@
     }
 
     .carrousel-title{
-        font-size: 28px !important;
+        font-size: 34px !important;
         text-align: center;
         padding: 1rem;
         position: relative;
         top:-80px;
+        left:-10px;
     }
 
-
     .carrousel-subtitle{
-        font-size: 18px !important;
+        font-size: 23px !important;
         text-align: center;
         padding: 1rem;
         position: relative;
-
         line-height: 50px;
+    }
 
+    .title-about{
+        position: relative;
+        left:-50px;
     }
     
     .text-about{
         position: relative;
-        left:0px;
+        left:-50px;
     }
    
     .title-projects{
@@ -623,6 +625,7 @@
     .main-title{
         position: relative;
         top:50px;
+        left:5px;
     }
 
     .clients{
@@ -632,7 +635,7 @@
 
     .logo-footer{
         position: relative;
-        left:168px;
+        left:180px;
         padding-bottom:10px;
     }
 

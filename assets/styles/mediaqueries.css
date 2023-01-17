@@ -320,7 +320,6 @@
 
 }
 
-
 @media (max-width:768px){
     body{
         overflow-x: hidden !important;
@@ -1049,7 +1048,6 @@
 
 }
 
-
 @media (max-width:390px){
 
     body{
@@ -1301,7 +1299,6 @@
         overflow-x: hidden !important;
     }
 
-
     .about{
         position: relative;
         left:0px;
@@ -1320,15 +1317,12 @@
         top:-150px;
     }
 
-
     .carrousel-subtitle{
         font-size: 13px !important;
         text-align: center;
         padding: 1rem;
         position: relative;
-
         line-height: 40px;
-
     }
     
     .text-about{

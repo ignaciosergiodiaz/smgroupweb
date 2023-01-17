@@ -22,6 +22,8 @@ h2{
 }
 
 body{
+
+    overflow-x: hidden !important;
     background-color: #F6F0FF !important;
   
     position: relative;

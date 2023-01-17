@@ -9,6 +9,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+   
+}
+
+html{
+
 }
 
 h2{
@@ -18,7 +23,7 @@ h2{
 
 body{
     background-color: #F6F0FF !important;
-    overflow-x: hidden;
+  
     position: relative;
     margin:0px !important;
     padding: 0px !important; 

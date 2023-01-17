@@ -1,6 +1,10 @@
 
 @media(max-width:2560px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
     .carrousel-title{
         font-size: 48px !important;
         text-align: left;
@@ -26,6 +30,15 @@
 
 @media(max-width:1440px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .main-title{
+        position: relative;
+        left:-50px;
+    }
+
     .carrousel-title{
         font-size: 48px !important;
         text-align: left;
@@ -50,6 +63,10 @@
 }
 
 @media (max-width:1024px){
+
+    body{
+        overflow-x: hidden !important;
+    }
 
     
     .title{
@@ -179,6 +196,10 @@
 
 @media (max-width:993px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
     .title{
         position: relative;
         left:10px;
@@ -301,6 +322,9 @@
 
 
 @media (max-width:768px){
+    body{
+        overflow-x: hidden !important;
+    }
 
     .title{
         position: relative;
@@ -425,6 +449,132 @@
 
 @media (max-width:760px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:310px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:295px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:340px;
+    }
+
+}
+
+@media (max-width:720px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
     .title{
         position: relative;
         left:10px;
@@ -543,6 +693,10 @@
 
 @media (max-width:500px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
     .title{
         position: relative;
         left:10px;
@@ -657,6 +811,10 @@
 
 @media (max-width:425px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
     .title{
         position: relative;
         left:10px;
@@ -765,7 +923,139 @@
 
 }
 
+@media (max-width:412px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:-3px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 16px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-47px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:125px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:125px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left:12px ;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:162px;
+    }
+
+}
+
+
 @media (max-width:390px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
     .about{
         position: relative;
         left:-3px;
@@ -888,6 +1178,10 @@
 
 @media (max-width:375px){
 
+    body{
+        overflow-x: hidden !important;
+    }
+
     .about{
         position: relative;
         left:2px;
@@ -1002,6 +1296,11 @@
 }
 
 @media (max-width:320px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
 
     .about{
         position: relative;

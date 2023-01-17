@@ -10,7 +10,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-family: 'Poppins', sans-serif !important;
-    overflow-x: hidden !important;
+
 }
 
 h2{
@@ -21,7 +21,7 @@ h2{
 
 body{
     background-color: #F6F0FF !important;
-    overflow-x: hidden;
+
     position: relative;
     margin:0px !important;
     padding: 0px !important; 
@@ -61,8 +61,6 @@ body{
     text-align: left !important;
 }
 
-
-
 .container{
     overflow: scroll;
     position: relative;
@@ -79,14 +77,12 @@ a:hover{
 
 .header-text{
     position: relative;
-    top:-290px;
+    top:-300px;
 }
 
 .carousel-image{
      object-fit: contain;
 }
-
-
 
 .carousel-caption{
     /* text-shadow: 4px 4px 4px rgb(6, 6, 6); */
@@ -265,23 +261,7 @@ a:hover{
     box-shadow: -1px 1px 15px -3px #535353; */
 }
 
-.video-reel1:hover {
-    /* -webkit-box-shadow: -1px 2px 15px 5px #B6B6B6; 
-    box-shadow: -1px 2px 15px 5px #B6B6B6; */
-    cursor: pointer;
-}
 
-.video-reel2:hover {
-    /* -webkit-box-shadow: -1px 2px 15px 5px #B6B6B6; 
-    box-shadow: -1px 2px 15px 5px #B6B6B6; */
-    cursor: pointer;
-}
-
-.video-reel3:hover {
-    /* -webkit-box-shadow: -1px 2px 15px 5px #B6B6B6; 
-    box-shadow: -1px 2px 15px 5px #B6B6B6; */
-    cursor: pointer;
-}
 
 .article{
     margin-left:160px;

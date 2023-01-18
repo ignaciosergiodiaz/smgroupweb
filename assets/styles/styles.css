@@ -12,17 +12,16 @@
    
 }
 
-html{
-    overflow-x: hidden !important;
-}
 
 h2{
     color:#52397D !important;
     font-weight: bolder !important;
 }
 
+
 body{
     overflow-x: hidden !important;
+    box-sizing: border-box;
     background-color: #F6F0FF !important;
     position: relative;
     margin:0px !important;

@@ -1064,9 +1064,6 @@
 
 @media (max-width:390px){
 
-    body{
-        overflow-x: hidden !important;
-    }
 
     .about{
         position: relative;
@@ -1084,6 +1081,7 @@
         padding: 1rem;
         position: relative;
         top:-150px;
+        left:-9px;
     }
 
 
@@ -1128,7 +1126,7 @@
 
     .image-services img{
         position: relative;
-        left:125px;
+        left:110px;
         top:-5px;
         padding-bottom:1rem;
         width: 240px;
@@ -1162,7 +1160,7 @@
 
     .logo-footer{
         position: relative;
-        left:125px;
+        left:116px;
         padding-bottom:10px;
     }
 

@@ -339,6 +339,7 @@
         font-size: 32px !important;
         text-align: center;
         padding: 1rem;
+        left:0px;
         position: relative;
         top:-80px;
     }
@@ -421,13 +422,13 @@
 
     .clients{
         position: relative;
-        left:16px;
+        left:10px;
         text-align: center;
     }
 
     .logo-footer{
         position: relative;
-        left:295px;
+        left:310px;
         padding-bottom:10px;
     }
 
@@ -441,7 +442,7 @@
 
     .footer-phone{
         position: relative;
-        left:340px;
+        left:350px;
     }
 
 }
@@ -549,7 +550,7 @@
 
     .logo-footer{
         position: relative;
-        left:295px;
+        left:310px;
         padding-bottom:10px;
     }
 
@@ -820,22 +821,27 @@
     }
 
     .carrousel-title{
-        font-size: 20px !important;
+        font-size: 24px !important;
         text-align: center;
         padding: 1rem;
         position: relative;
-        top:-250px;
+        top:-150px;
     }
 
 
     .carrousel-subtitle{
-        font-size: 13px !important;
+        font-size: 16px !important;
         text-align: center;
         padding: 1rem;
         position: relative;
 
         line-height: 40px;
 
+    }
+
+    .about{
+        position: relative;
+        left:34px;
     }
     
     .text-about{
@@ -850,7 +856,7 @@
 
     .card{
         position: relative;
-        left:-30px;
+        left:-29px;
     }
 
     .content{
@@ -869,7 +875,7 @@
 
     .image-services img{
         position: relative;
-        left:135px;
+        left:140px;
         top:-5px;
         padding-bottom:1rem;
         width: 240px;
@@ -898,29 +904,37 @@
 
     .clients{
         position: relative;
-        left:10px;
+        left:7px;
     }
 
     .logo-footer{
         position: relative;
-        left:130px;
+        left:136px;
         padding-bottom:10px;
     }
 
     .title-footer{
         text-align: center;
+        position: relative;
+        left:12px ;
     }
 
     .text-footer{
         text-align: center;
     }
 
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
     .footer-phone{
         position: relative;
-        left:165px;
+        left:186px;
     }
 
 }
+
 
 @media (max-width:412px){
 
@@ -1056,7 +1070,7 @@
 
     .about{
         position: relative;
-        left:-3px;
+        left:36px;
     }
 
     .title{
@@ -1169,7 +1183,7 @@
 
     .footer-phone{
         position: relative;
-        left:162px;
+        left:168px;
     }
 
 }
@@ -1182,7 +1196,7 @@
 
     .about{
         position: relative;
-        left:2px;
+        left:33px;
     }
 
     .title{
@@ -1211,7 +1225,7 @@
     
     .text-about{
         position: relative;
-        left:0px;
+        left:-5px;
     }
    
     .title-projects{
@@ -1274,7 +1288,7 @@
 
     .logo-footer{
         position: relative;
-        left:110px;
+        left:120px;
         padding-bottom:10px;
     }
 
@@ -1288,7 +1302,7 @@
 
     .footer-phone{
         position: relative;
-        left:145px;
+        left:162px;
     }
 
 }
@@ -1301,7 +1315,7 @@
 
     .about{
         position: relative;
-        left:0px;
+        left:30px;
     }
 
     .title{
@@ -1391,7 +1405,7 @@
 
     .logo-footer{
         position: relative;
-        left:80px;
+        left:90px;
         padding-bottom:10px;
     }
 
@@ -1405,7 +1419,7 @@
 
     .footer-phone{
         position: relative;
-        left:115px;
+        left:132px;
     }
 
 }

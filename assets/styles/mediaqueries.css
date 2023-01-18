@@ -319,6 +319,135 @@
 
 }
 
+@media (max-width:991px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:280px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+
 @media (max-width:912px){
     body{
         overflow-x: hidden !important;
@@ -701,6 +830,136 @@
     }
 
 }
+
+@media (max-width:766px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-190px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:180px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:190px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:230px;
+    }
+
+}
+
+
+
 
 @media (max-width:760px){
 

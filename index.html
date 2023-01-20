@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   
     <title>s&mgroup</title>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
     <meta name="description" content="S&M Consulting Group busca entregar soluciones rápidas y eficientes en el reclutamiento y selección de profesionales">
-
     <link rel="stylesheet" href="./assets/styles/mediaqueries.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" >
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
 </head>
 
-<body class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<body>
    
     <!--NAV-->
     <!--===-->
@@ -40,7 +30,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">Quiénes Somos</a>
@@ -96,17 +86,21 @@
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" tabindex="0" data-bs-smooth-scroll="true">
 
         <header class="header" id="home">
-            <img class="carrousel1" alt="">
-            <div class="col-lg-10 offset-lg-5 text-left header-text" >
-                <h2 class="carrousel-title">Queremos estar junto a ti <br> <span class="carrousel-subtitle"> Entregamos soluciones rápidas </span></h2>
+            <img class="carrousel1 " alt="">
+            <div class="container col-lg-10 offset-0 offset-md-0 offset-lg-5 text-left header-text p-5">
+                <h2 class="carrousel-title mt-4">
+                    Queremos estar junto a ti <br> 
+                    <span class="carrousel-subtitle"> 
+                    Entregamos soluciones rápidas 
+                </span></h2>
             </div>
         </header>
 
         <!-- SECTIION HOME -->
 
-        <div class="container">
-            <section class="row about pt-5 pb-5 mb-5 mt-5" id="about"> 
-                <div class="content col-10 offset-0 col-md-7 offset-md-2 col-md-5 col-lg-6 offset-lg-3 mt-1 pb-5 mt-5 pt-5">
+        <div class="container" id="about">
+            <section class="row  pt-5 pb-5 mb-5 mt-5" > 
+                <div class=" offset-md-2 about content offset-0 col-md-7 offset-md-0 col-lg-6 offset-lg-3 mt-1 pb-5 mt-5 pt-5">
                     
                     <h2 class="text-center title-about pb-5 pt-5">S&M Group</h2>
     
@@ -126,11 +120,11 @@
 
     
 
-        <!--PROJECTS--->
+        <!--VALOR AGREGADO--->
         <!--=========-->
 
         <section class="container mt-5 mb-5 pt-5 pb-5" id="valorAgregado"> 
-            <div class="row offset-md-6 offset-lg-0 offset-xl-0 reel services mt-1 mb-5 pt-5 mb-5">
+            <div class="row items col-md-11 offset-sm-2 offset-md-3 offset-lg-0 offset-xl-0 reel  mt-1 mb-5 pt-5 mb-5">
                 <div class="card">
                     <img src="./assets/img/queremos-entregar.png" class="card-img-top" alt="...">
                     <div class="card-body mt-5">
@@ -152,70 +146,117 @@
                     <p class="card-text mt-4">Queremos estar junto a ti cuando logres tus metas. Nuestros servicios están pensados para adaptarse a tus requerimientos.</p>
                     </div>
                 </div>
+                
+            </div>
+            
+            <div class="text-center mt-5">
+                <button class="btn btn-primary col-lg-2">Saber Más</button>
+            </div> 
+        </section>
+
+
+        <section class="container mt-5 mb-5 pt-5 pb-5 mobile-services" id="valorAgregado"> 
+
+            <h2 class="text-center mb-5 mt-5">NUESTROS SERVICIOS</h2>
+
+            <div class="row items col-md-11 offset-sm-2 offset-md-3 offset-lg-0 offset-xl-0 reel  mt-1 mb-5 pt-5 mb-5">
+                <div class="card">
+                    <img src="./assets/img/busqueda.png" class="card-img-top" alt="...">
+                    <div class="card-body mt-5">
+                        <h5 class="card-title">Busqueda de profesionales</h5>
+                        <p class="card-text mt-4">Entendemos y reconocemos la importancia de una buena selección de personal en el momento de contar con nuevos colaboradores..</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/head.png" class="card-img-top" alt="...">
+                    <div class="card-body mt-5">
+                        <h5 class="card-title">Head Hunting</h5>
+                        <p class="card-text mt-4">Gracias a nuestra experiencia y el profesionalismo de nuestros colaboradores, hemos logrado entregar a nuestros clientes un servicio de calidad, permitiéndonos llegar a las mejores y más altas posiciones.</p>
+                    </div>
+                </div>
+                <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    <img src="./assets/img/evaluacion.png" class="card-img-top" alt="...">
+                    <div class="card-body mt-5">
+                    <h5 class="card-title">Trabajemos Juntos</h5>
+                    <p class="card-text mt-4">Entendemos la importancia de una buena selección no solo en una nueva contratación de personal, también en el momento de una promoción interna..</p>
+                    </div>
+                </div>
             </div>    
+            <div class="text-center mt-5">
+                <button class="btn btn-primary col-lg-2">Saber Más</button>
+            </div>
         </section>
 
         <!-- SERVICES -->
         <!---======== -->
-            
-        <div class="container" id="services">
 
-            <div class="offset-xl-2 col-md-12 col-lg-9 reel services mt-2 mb-5 pt-4 mb-5">
+        <section class="services ">
+            <div class="container mt-5 pt-5" id="services">
 
-                <h2 class="text-center main-title pb-5 pt-5 mt-5">Nuestros Servicios</h2>
-                                
-                    <div class="row featurette service mt-5 pt-5">
-                        <div class="col-md-5 image-services">
-                            <img src="./assets/img/busqueda.png" alt="busqueda-de-profesionales-sym">
-                        </div>
-                        <div class="col-md-7">
-                        <h2 class="title-services p-2">Búsqueda de Profesionales</h2>
-                            <p class=" text-services p-5">
-                                Entendemos y reconocemos la importancia de una buena selección 
-                                de personal en el momento de contar con nuevos colaboradores
-                            </p>
-                        
-                        </div>
-                    </div>
+                <div class="mt-5 pt-5">
+    
+                    <h2 class="text-center title-services pt-5 mt-5">Nuestros Servicios</h2>
 
-                    <div class="row featurette service mt-5 pt-5">
-                        <div class="col-md-7">
-                        <h2 class="title-services ">Evaluación Psicologica</h2>
-                        <p class=" text-services p-4">Entendemos la importancia de una buena
-                            <br> selección no solo en 
-                            una nueva contratación de personal, también en el momento 
-                            de una <br> promoción interna. </p>
+                        <br class="mt-5">
+                                    
+                        <div class="row featurette service mt-5 pt-5 ">
+                            <div class="col-md-6 order-md-2">
+                                <h2 class="title-services p-2">Búsqueda de Profesionales</h2>
+                                <p class=" text-services p-5">
+                                    Entendemos y reconocemos la importancia de una buena selección 
+                                    de personal en el momento de contar con nuevos colaboradores
+                                </p>
+                            </div>
+                            <div class="col-md-5 mt-4 image-services">
+                                <img src="./assets/img/evaluacion.png" alt="evalucion-psicologica-sym">
+                            </div>  
+                           
+                           
                         </div>
-                        <div class="col-md-5 mt-4 image-services">
-                            <img src="./assets/img/evaluacion.png" alt="evalucion-psicologica-sym">
-                        </div>                    
-                    </div>
-
-                    <div class="row featurette service mt-5 pt-5">
-                        <div class="col-md-7 order-md-2">
-                            <h2 class="title-services">Head Hunting</h2>
-                            <p class=" text-services p-5">
-                                Gracias a nuestra experiencia y el profesionalismo de nuestros colaboradores,
-                                hemos logrado entregar a nuestros clientes un servicio de calidad, permitiéndonos llegar a las mejores y más altas posiciones.</p>
+    
+                        <div class="row featurette service mt-5 pt-5 ">
+                            <div class="col-md-7">
+                                <h2 class="title-services p-2">Head Hunting</h2>
+                                <p class=" text-services p-5">
+                                    Entendemos y reconocemos la importancia de una buena selección 
+                                    de personal en el momento de contar con nuevos colaboradores
+                                </p>
+                            </div>
+                            <div class="col-md-5 mt-4 image-services">
+                                <img src="./assets/img/evaluacion.png" alt="evalucion-psicologica-sym">
+                            </div>                    
                         </div>
-                        <div class="col-md-5 order-md-1  image-services">
-                            <img src="./assets/img/head.png" alt="head-hunting-sym">
+    
+                        <div class="row featurette service mt-5 pt-5 ">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="title-services p-2">Evaluación Psicologica</h2>
+                                <p class=" text-services p-5">
+                                    Entendemos y reconocemos la importancia de una buena selección 
+                                    de personal en el momento de contar con nuevos colaboradores
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1  image-services">
+                                <img src="./assets/img/head.png" alt="head-hunting-sym">
+                            </div>
                         </div>
-                    </div>
-
+    
+                </div>
+    
             </div>
-
-        </div>
-
+        </section>
+            
         <!-- CLIENTES -->
         <!---====== -->
 
         <br>
 
-        <div class="pb-5 pt-5 mt-5 mb-4 container " id="clients" >
-            <h2 class="title-clients">¿Quiénes han confiado <br> en nosotros?</h2>
+        <div class="pb-5 pt-5 mt-5 mb-4 container " id="clients">
             
-            <div class="clients row pt-2">
+            <h2 class="title-clients text-center pt-5 mt-5 pb-5">¿Quiénes han confiado  en nosotros?</h2>
+
+            <br>
+            
+            <div class="clients row pt-2 text-center col-8 offset-2">
                 <div class="col-lg-3 mt-5">
                     <img src="./assets/img/toyota.png"  class="mt-4" alt="">
                 </div>
@@ -231,7 +272,7 @@
                 </div>
             </div>
 
-            <div class="clients row pt-5">
+            <div class="clients row pt-5 text-center col-8 offset-2">
                 <div class="col-lg-3 mt-4">
                     <img src="./assets/img/avon.png"  class="mt-2"  alt="">
                 </div>
@@ -249,21 +290,60 @@
 
         </div>
         
-</div>
+    </div>
 
-<!-- FOOTER -->
-<!---====== -->
+    <!-- FOOTER -->
+    <!---====== -->
+
+    <footer class="footer-mobile">
+
+            <div class="container">
+ 
+                <section class="row">
+                    
+                    <div class="text-center logo-footer-mobile">
+                        <img src="./assets/img/logo-footersvg.svg"  alt="">
+                    </div>
+
+                    <div class="">
+                            <h2 class="title-footer mt-4 text-center">Dirección</h2>
+                            <p class="text-center mt-0" >
+                            San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
+                            </p>
+                    </div>
+
+                    <div class="">
+                        <h2 class="title-footer mt-4 text-center">Dirección</h2>
+                        <p class="text-center mt-0" >
+                        San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
+                        </p>
+                    </div>
+
+                    <div class="">
+                        <h2 class="title-footer mt-4 text-center">Dirección</h2>
+                        <p class="text-center mt-0" >
+                        San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
+                        </p>
+                    </div>
+
+                </section>
+
+            </div>
+           
+    </footer>
             
-<footer class="footer">
-        <div class="container">
-            <section class="row">
+    <footer class="footer">
+            
+            <div class="container">
+                
+                <section class="row">
                     
                 <div class="col-lg-2 offset-lg-1">
                     <img src="./assets/img/logo-footersvg.svg" class="logo-footer" width="186" height="177" alt="">
                 </div>
         
                 <div class="links-footer  col-lg-3">
-                    <h2 class="title-footer">Dirección</h2>
+                    <h2 class="title-footer text-cnte">Dirección</h2>
                     <p class="text-footer" >
                         San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
                     </p>
@@ -284,19 +364,19 @@
                         
             </section>
                 
-        </footer>
+    </footer>
         
-        <footer class="footer-copy pb-3">
-            <p class="text-center text-footer">
-                © 2023 S&M GROUP. Todos los derechos Reservados.
-            </p>
-        </footer>
-    </div>
+    <footer class="footer-copy pb-3 mt-5">
+        <p class="text-center text-footer">
+            © 2023 S&M GROUP. Todos los derechos Reservados.
+        </p>
+    </footer>
     
-<!-- JAVASCRIPT BOOTSTRAP5 !!!-->
+    <!-- JAVASCRIPT BOOTSTRAP5 !!!-->
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
 </body>
 </html>

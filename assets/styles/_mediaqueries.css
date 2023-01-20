@@ -1,0 +1,2661 @@
+
+@media(max-width:2560px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: left;
+        padding: 1rem;
+        position: relative;
+        top:-90px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:60px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:1440px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .main-title{
+        position: relative;
+        left:-50px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: left;
+        padding: 1rem;
+        position: relative;
+        top:-90px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:60px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1024px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+    
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+        right:340px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+
+    .about{
+        position: relative;
+        left:26px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:-10px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:100px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:150px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:-40px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: left;
+        position: relative;
+        left:10px;
+    }
+
+    .text-footer{
+        text-align: left;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:10px;
+    }
+
+}
+
+@media (max-width:993px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+
+    .about{
+        position: relative;
+        left:40px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:295px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:340px;
+    }
+
+}
+
+@media (max-width:991px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:280px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+
+@media (max-width:912px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:280px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+@media (max-width:890px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:280px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+@media (max-width:820px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:310px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:350px;
+    }
+
+}
+
+@media (max-width:806px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-190px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:278px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+@media (max-width:768px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-190px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-225px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:280px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:320px;
+    }
+
+}
+
+@media (max-width:766px){
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .about{
+        position: relative;
+        left:50px;
+    }
+
+    .carrousel-title{
+        font-size: 48px !important;
+        text-align: center;
+        padding: 1rem;
+        left:0px;
+        position: relative;
+        top:-190px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:180px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-24px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:20px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:190px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:230px;
+    }
+
+}
+
+
+@media (max-width:760px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 32px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 18px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:310px;
+        top:0px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .title-clients{
+        position: relative;
+        left:10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clients{
+        position: relative;
+        left:16px;
+        text-align: center;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:190px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:230px;
+    }
+
+}
+
+@media (max-width:720px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 34px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+        left:-10px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 23px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 50px;
+    }
+
+    .title-about{
+        position: relative;
+        left:0px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .image-services img{
+        position: relative;
+        left:10px;
+        top:20px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;  
+         font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:5px;
+    }
+
+    .clients{
+        position: relative;
+        left:14px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:186px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:230px;
+    }
+
+}
+
+@media (max-width:575px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 34px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+        left:-10px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 23px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 50px;
+    }
+
+    .title-about{
+        position: relative;
+        left:0px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .image-services img{
+        position: relative;
+        left:190px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:5px;
+    }
+
+    .clients{
+        position: relative;
+        left:14px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:190px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:228px;
+    }
+
+}
+
+@media (max-width:540px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 34px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+        left:-10px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 23px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 50px;
+    }
+
+    .title-about{
+        position: relative;
+        left:0px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .image-services img{
+        position: relative;
+        left:190px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:5px;
+    }
+
+    .clients{
+        position: relative;
+        left:14px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:190px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:228px;
+    }
+
+}
+
+@media (max-width:500px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 34px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-80px;
+        left:-10px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 23px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 50px;
+    }
+
+    .title-about{
+        position: relative;
+        left:0px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:20px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+    .image-services img{
+        position: relative;
+        left:168px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+        left:5px;
+    }
+
+    .clients{
+        position: relative;
+        left:14px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:168px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:210px;
+    }
+
+}
+
+@media (max-width:425px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 16px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+
+    .about{
+        position: relative;
+        left:34px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-29px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:140px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:136px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left:12px ;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:186px;
+    }
+
+}
+
+@media (max-width:414px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:30px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 16px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-28px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:125px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:125px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left:12px ;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:162px;
+    }
+
+}
+
+@media (max-width:412px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:34px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 16px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-30px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:125px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:125px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left:12px ;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:162px;
+    }
+
+}
+@media (max-width:390px){
+
+
+    .about{
+        position: relative;
+        left:36px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+        left:-9px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 16px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-47px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:110px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:116px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left:12px ;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .text-footer-email{
+        position: relative;
+        left:10px;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:168px;
+    }
+
+}
+
+@media (max-width:375px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:39px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-100px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 13px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-40px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:105px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:110px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:150px;
+    }
+
+}
+@media (max-width:360px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:39px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 24px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-100px;
+    }
+
+
+    .carrousel-subtitle{
+        font-size: 13px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+
+        line-height: 40px;
+
+    }
+    
+    .text-about{
+        position: relative;
+        left:-5px;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-57px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:96px;
+        top:-5px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-8px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:98px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:140px;
+    }
+
+}
+
+@media (max-width:320px){
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .about{
+        position: relative;
+        left:30px;
+    }
+
+    .title{
+        position: relative;
+        left:10px;
+    }
+
+    .carrousel-title{
+        font-size: 20px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        top:-150px;
+    }
+
+    .carrousel-subtitle{
+        font-size: 13px !important;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        line-height: 40px;
+    }
+    
+    .text-about{
+        position: relative;
+        left:0px;
+        padding: 2rem;
+    }
+   
+    .title-projects{
+        position: relative;
+        left:10px;
+    }
+
+    .card{
+        position: relative;
+        left:-80px;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .card-img-top{
+        position: relative;
+    }
+
+    .service{
+        position: relative;
+        left:-40px;
+    }
+
+
+    .image-services img{
+        position: relative;
+        left:80px;
+        top:-10px;
+        padding-bottom:1rem;
+        width: 240px;
+    }
+
+    .title-services{
+        position: relative;
+        left:40px;
+        top:-5px;
+        text-align: center;
+    }
+
+    .text-services{
+        position: relative;
+        left:40px;
+        font-size:16px;
+        top:-5px;
+        text-align: center;   font-weight: lighter ;
+
+    }
+
+    .main-title{
+        position: relative;
+        top:50px;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+    }
+
+    .logo-footer{
+        position: relative;
+        left:90px;
+        padding-bottom:10px;
+    }
+
+    .title-footer{
+        text-align: center;
+    }
+
+    .text-footer{
+        text-align: center;
+    }
+
+    .footer-phone{
+        position: relative;
+        left:132px;
+    }
+
+}

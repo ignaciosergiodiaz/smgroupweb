@@ -31,6 +31,21 @@
     
 }
 
+@media(max-width:1440px){
+
+    .items{
+        position: relative;
+        left:80px;
+    }
+
+    .main-title-services{
+        position: relative;
+        left:-60px;
+    }
+
+
+}
+
 
 @media (max-width:1280px) {
 

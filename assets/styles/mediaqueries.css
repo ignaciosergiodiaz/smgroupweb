@@ -32,6 +32,62 @@
 }
 
 
+@media (max-width:1280px) {
+
+    .mobile-services{
+        background-color: #FFFF;
+        display: block;
+    }
+
+    .header-text{
+        position: relative;
+        top:-460px;
+        font-size: 16px ;
+        text-align: center;
+    }
+
+    .carrousel-title{
+        left:-200px;
+    }
+    
+    .footer{
+        display:none ;
+        
+    }
+    
+    .footer-mobile{
+        display: block;
+    }
+
+    .title-footer{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer-mobile{
+        position: relative;
+        left:20px;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+    }
+
+    .services{
+        display: none ;
+    }
+
+    .items{
+        position: relative;
+        left:20px;
+    }
+
+    
+}
+
+
+
 
 @media (max-width:1024px) {
 
@@ -189,6 +245,73 @@
     .items{
         position: relative;
         left:96px;
+    }
+
+    
+}
+
+
+
+
+@media (max-width:390px) {
+
+    .mobile-services{
+        background-color: #FFFF;
+        display: block;
+    }
+
+    .header-text{
+        position: relative;
+        top:-460px;
+
+        text-align: center;
+    }
+
+    .carrousel-title{
+        left:-200px;
+
+        font-size: 1.2rem  !important;
+
+    }
+
+    .carrousel-subtitle{
+
+        line-height: 40px;
+        font-size: 1rem  !important;
+
+    }
+    
+    .footer{
+        display:none ;
+        
+    }
+    
+    .footer-mobile{
+        display: block;
+    }
+
+    .title-footer{
+        position: relative;
+        left:7px;
+    }
+
+    .logo-footer-mobile{
+        position: relative;
+        left:20px;
+    }
+
+    .clients{
+        position: relative;
+        left:10px;
+    }
+
+    .services{
+        display: none ;
+    }
+
+    .items{
+        position: relative;
+        left:36px;
     }
 
     

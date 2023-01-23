@@ -64,7 +64,7 @@
           white-space: nowrap;
           -webkit-overflow-scrolling: touch;
         }
-      </style>
+    </style>
 </head>
 
 <body>
@@ -90,9 +90,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#about">Quiénes Somos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Servicios</a>
-                </li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
 
                 <li class="nav-item">
                     <a class="nav-link" href="#clients">Clientes</a>
@@ -145,7 +152,7 @@
                 <div class="carousel-item active">
                     <div class="carousel1"></div>
                     <div class="container">
-                        <div class="carousel-caption text-end">
+                        <div class="carousel-caption text-center">
                             <h1>Queremos estar junto a ti</h1>
                             <p>Entregamos soluciones rápidas</p>
                         </div>
@@ -154,7 +161,7 @@
             <div class="carousel-item">
                 <div  class="carousel1"></div>
                 <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-center">
                     <h1>Another example headline.</h1>
                     <p>Some representative placeholder content for the second slide of the carousel.</p>
                 </div>
@@ -163,7 +170,7 @@
             <div class="carousel-item">
                 <div  class="carousel1"></div>
                 <div class="container">
-                <div class="carousel-caption text-end">
+                <div class="carousel-caption text-center">
                     <h1>One more for good measure.</h1>
                     <p>Some representative placeholder content for the third slide of this carousel.</p>
                 </div>

@@ -29,10 +29,7 @@ li{
 .carousel1{
     background-image: url('./../img/carousel1.png');
     height: 100vh;
-    width: 100%;
-    background-size: cover;
-  
-    background-position:initial;
+    background-position:center;
     background-repeat: no-repeat;
 }
 
@@ -50,4 +47,16 @@ li{
 .btn-primary{
     background-color: #52397D !important;
     border-style: none !important;
+}
+
+@media (max-width:500px){
+    .carousel1{
+        background-image: url('./../img/carouselmobile.png');
+        height: 100vh;
+        background-size:cover;
+        position: relative;
+        top:60px;
+        background-repeat: no-repeat;
+    }
+    
 }

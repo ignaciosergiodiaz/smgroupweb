@@ -11,372 +11,284 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" >   
+
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+  
+        .b-example-divider {
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+  
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+  
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+  
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+      </style>
 </head>
 
 <body>
-   
-    <!--NAV-->
-    <!--===-->
+
+    <main>
+
+        <!--NAV-->
+        <!--===-->
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/logo.svg" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Quiénes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Servicios</a>
-              </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Servicios</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#clients">Clientes</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients">Clientes</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contácto</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contácto</a>
+                </li>
+                
+                </ul>
+
+                <div class="d-flex" role="search">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./assets/img/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./assets/img/twitter.svg" alt="">
+                            </a>
+                        </li>
             
-            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="position: relative; top:-6px;">
+                                <img src="./assets/img/linkedin.svg" alt="">
+                            </a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./assets/img/email.svg" alt="">
+                            </a>
+                        </li>
 
-            <div class="d-flex" role="search">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel1"></div>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Queremos estar junto a ti</h1>
+                            <p>Entregamos soluciones rápidas</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <div  class="carousel1"></div>
+                <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div  class="carousel1"></div>
+                <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto mt-4">
+                <h1 class="fw-light mt-3">S&M Group</h1>
+                <p class="lead text-muted mt-5">
+                    S&M Consulting Group busca entregar soluciones rápidas y eficientes en el reclutamiento y selección de profesionales, así como en las áreas de capacitación y la asesoría de proyectos de RR.HH. Comprendiendo que cada empresa es única e importante, ofrecemos soluciones creativas e innovadoras diseñadas a medida de nuestros clientes...
+                </p>
+               
+              </div>
+            </div>
+        </section>
+
+
+        <div class="album py-5 bg-light">
+            <div class="container col-10">
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                  <div class="card ">
+                    <img src="./assets/img/queremos-entregar.png" alt="">
+                    <div class="card-body">
+                      <h3 class="text-center">Queremos Entregar</h3>
+                      <p class="card-text text-center mt-3">soluciones rápidas y eficientes en el reclutamiento y selección de profesionales, así como en las áreas de capacitación y la asesoría de proyectos de RR.HH.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/queremos-entregar.png" alt="">
                    
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="./assets/img/facebook.svg" alt="">
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="./assets/img/twitter.svg" alt="">
-                        </a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="#" style="position: relative; top:-6px;">
-                            <img src="./assets/img/linkedin.svg" alt="">
-                        </a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="./assets/img/email.svg" alt="">
-                        </a>
-                      </li>
+                    <div class="card-body">
+                      <h3 class="text-center">Nuestros Clientes</h3>
+                      <p class="card-text text-center mt-3">pueden dar testimonio del profesionalismo y excelencia que destacan a los profesionales de S&M Consulting Group, que trabajan en cada proyecto como si fuera propio.</p>
                      
-                    
-                    </ul>
-            </div>
-          </div>
-        </div>
-    </nav>
-
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" tabindex="0" data-bs-smooth-scroll="true">
-
-        <header class="header" id="home">
-            <img class="carrousel1 " alt="">
-            <div class="container col-lg-10 offset-0 offset-md-0 offset-lg-5 text-left header-text p-5">
-                <h2 class="carrousel-title mt-4">
-                    Queremos estar junto a ti <br> 
-                    <span class="carrousel-subtitle"> 
-                    Entregamos soluciones rápidas 
-                </span></h2>
-            </div>
-        </header>
-
-        <!-- SECTIION HOME -->
-
-        <div class="container" id="about">
-            <section class="row  pt-5 pb-5 mb-5 mt-5" > 
-                <div class="text-about offset-md-2 about content offset-0 col-md-7 offset-md-0 col-lg-12 offset-lg-0 mt-1 pb-5 mt-5 pt-5">
-                    
-                    <h2 class="text-center title-about pb-5 pt-5">S&M Group</h2>
-    
-                    <p class=" text-center">
-                        S&M Consulting Group busca entregar soluciones rápidas y eficientes en el reclutamiento 
-                        y selección de profesionales, así como en las áreas de capacitación y la asesoría 
-                        de proyectos de RR.HH. Comprendiendo que cada empresa es única e importante,
-                        ofrecemos soluciones creativas e innovadoras diseñadas a medida 
-                        de nuestros clientes...
-                    </p>
+                    </div>
+                  </div>
                 </div>
-                <!-- <div class="text-center mt-5">
-                    <button class="btn btn-primary col-lg-2">Saber Más</button>
-                </div> -->
-            </section>
+
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/queremos-entregar.png" alt="">
+                    
+                    <div class="card-body">
+                    <h3 class="center-text text-center">Trabajemos Juntos</h3>
+                      <p class="card-text text-center mt-3">Queremos estar junto a ti cuando logres tus metas. Nuestros servicios están pensados para adaptarse a tus requerimientos.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+        
+               
+              </div>
+            </div>
         </div>
 
-    
+        <div class="container pt-5 mt-5 col-9">
 
-        <!--VALOR AGREGADO--->
-        <!--=========-->
+            <h1 class="fw-light pb-5 text-center">Nuestros Servicios</h1>
 
-        <section class="container mt-5 mb-5 pt-5 pb-5" id="valorAgregado"> 
-            <div class="row items col-lg-12 col-md-11 offset-sm-2 offset-md-3 offset-lg-3 offset-xl-1 reel  mt-1 mb-5 pt-5 mb-5">
-                <div class="card">
-                    <img src="./assets/img/queremos-entregar.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                        <h5 class="card-title">Queremos Entregar</h5>
-                        <p class="card-text mt-4">soluciones rápidas y eficientes en el reclutamiento y selección de profesionales, así como en las áreas de capacitación y la asesoría de proyectos de RR.HH.</p>
-                    </div>
+            <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+                  <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
                 </div>
-                <div class="card">
-                    <img src="./assets/img/nuestros-clientes.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                        <h5 class="card-title">Nuestros Clientes</h5>
-                        <p class="card-text mt-4">pueden dar testimonio del profesionalismo y excelencia que destacan a los profesionales de S&M Consulting Group, que trabajan en cada proyecto como si fuera propio.</p>
-                    </div>
+                <div class="col-md-5">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
-                <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                    <img src="./assets/img/trabajemos-juntos.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                    <h5 class="card-title">Trabajemos Juntos</h5>
-                    <p class="card-text mt-4">Queremos estar junto a ti cuando logres tus metas. Nuestros servicios están pensados para adaptarse a tus requerimientos.</p>
-                    </div>
+              </div>
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+                  <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
                 </div>
-                
-            </div>
-            
-            <div class="text-center mt-5 readmore1">
-                <button class="btn btn-primary col-lg-2">Saber Más</button>
-            </div> 
-        </section>
-
-
-        <section class="container mt-5 mb-5 pt-5 pb-5 mobile-services " id="valorAgregado"> 
-
-            <h2 class="text-center mb-5 mt-5 title-services">NUESTROS SERVICIOS</h2>
-
-            <div class="row items  col-md-11 offset-sm-2 offset-md-3 offset-lg-2 offset-xl-0 reel  mt-1 mb-5 pt-5 mb-5">
-                <div class="card">
-                    <img src="./assets/img/busqueda.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                        <h5 class="card-title">Busqueda de profesionales</h5>
-                        <p class="card-text mt-4">Entendemos y reconocemos la importancia de una buena selección de personal en el momento de contar con nuevos colaboradores..</p>
-                    </div>
+                <div class="col-md-5 order-md-1">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
-                <div class="card">
-                    <img src="./assets/img/head.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                        <h5 class="card-title">Head Hunting</h5>
-                        <p class="card-text mt-4">Gracias a nuestra experiencia y el profesionalismo de nuestros colaboradores, hemos logrado entregar a nuestros clientes un servicio de calidad, permitiéndonos llegar a las mejores y más altas posiciones.</p>
-                    </div>
+              </div>
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                  <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
                 </div>
-                <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                    <img src="./assets/img/evaluacion.png" class="card-img-top" alt="...">
-                    <div class="card-body mt-5">
-                    <h5 class="card-title">Trabajemos Juntos</h5>
-                    <p class="card-text mt-4">Entendemos la importancia de una buena selección no solo en una nueva contratación de personal, también en el momento de una promoción interna..</p>
-                    </div>
+                <div class="col-md-5">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
-            </div>    
-            <div class="text-center mt-5 readmore1">
-                <button class="btn btn-primary col-lg-2">Saber Más</button>
-            </div>
-        </section>
-
-        <!-- SERVICES -->
-        <!---======== -->
-
-        <section class="services ">
-            <div class="container mt-5 pt-5" id="services">
-
-                <div class="mt-5 pt-5 offset-lg-2">
-    
-                    <h2 class="text-center main-title-services pt-5 mt-5">Nuestros Servicios</h2>
-
-                        <br class="mt-5">
-                                    
-                        <div class="row featurette service mt-5 pt-5 ">
-                            <div class="col-md-6 order-md-2">
-                                <h2 class="title-services p-2">Búsqueda de Profesionales</h2>
-                                <p class=" text-services p-5">
-                                    Entendemos y reconocemos la importancia de una buena selección 
-                                    de personal en el momento de contar con nuevos colaboradores
-                                </p>
-                            </div>
-                            <div class="col-md-5 mt-4 image-services">
-                                <img src="./assets/img/evaluacion.png" alt="evalucion-psicologica-sym">
-                            </div>  
-                           
-                           
-                        </div>
-    
-                        <div class="row featurette service mt-5 pt-5 ">
-                            <div class="col-md-7">
-                                <h2 class="title-services p-2">Head Hunting</h2>
-                                <p class=" text-services p-5">
-                                    Entendemos y reconocemos la importancia de una buena selección 
-                                    de personal en el momento de contar con nuevos colaboradores
-                                </p>
-                            </div>
-                            <div class="col-md-5 mt-4 image-services">
-                                <img src="./assets/img/evaluacion.png" alt="evalucion-psicologica-sym">
-                            </div>                    
-                        </div>
-    
-                        <div class="row featurette service mt-5 pt-5 ">
-                            <div class="col-md-7 order-md-2">
-                                <h2 class="title-services p-2">Evaluación Psicologica</h2>
-                                <p class=" text-services p-5">
-                                    Entendemos y reconocemos la importancia de una buena selección 
-                                    de personal en el momento de contar con nuevos colaboradores
-                                </p>
-                            </div>
-                            <div class="col-md-5 order-md-1  image-services">
-                                <img src="./assets/img/head.png" alt="head-hunting-sym">
-                            </div>
-                        </div>
-    
-                </div>
-    
-            </div>
-        </section>
-            
-        <!-- CLIENTES -->
-        <!---====== -->
-
-        <br>
-
-        <div class="pb-5 pt-5 mt-5 mb-4 container " id="clients">
-            
-            <h2 class="title-clients text-center pt-5 mt-5 pb-5">¿Quiénes han confiado  en nosotros?</h2>
-
-            <br>
-            
-            <div class="clients row pt-2 text-center col-8 offset-2">
-                <div class="col-lg-3 mt-5">
-                    <img src="./assets/img/toyota.png"  class="mt-4" alt="">
-                </div>
-                <div class="col-lg-3 mt-4">
-                    <img src="./assets/img/kidzania.png" class="mt-5" alt="">
-                </div>
-                <div class="col-lg-3 mt-3">
-                    <img src="./assets/img/cencosud.png" class="mt-5" alt="">
-                </div>
-    
-                <div class="col-lg-3 mt-3">
-                    <img src="./assets/img/bbva.png" class="mt-5" alt="">
-                </div>
-            </div>
-
-            <div class="clients row pt-5 text-center col-8 offset-2">
-                <div class="col-lg-3 mt-4">
-                    <img src="./assets/img/avon.png"  class="mt-2"  alt="">
-                </div>
-                <div class="col-lg-3 mt-4">
-                    <img src="./assets/img/MetLife_logo 1.png" class="mt-5" alt="">
-                </div>
-                <div class="col-lg-3 mt-4" >
-                    <img src="./assets/img/dhl.png" class="mt-5" alt="">
-                </div>
-    
-                <div class="col-lg-3 mt-4" >
-                    <img src="./assets/img/bayer.png" class="mt-4" alt="">
-                </div>
-            </div>
-
+              </div>
         </div>
-        
-    </div>
 
-    <!-- FOOTER -->
-    <!---====== -->
+    </main>
 
-    <footer class="footer-mobile">
-
-            <div class="container">
- 
-                <section class="row">
-                    
-                    <div class="text-center logo-footer-mobile">
-                        <img src="./assets/img/logo-footersvg.svg"  alt="">
-                    </div>
-
-                    <div class="">
-                            <h2 class="title-footer mt-4 text-center">Dirección</h2>
-                            <p class="text-center mt-0" >
-                            San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
-                            </p>
-                    </div>
-
-                    <div class="">
-                        <h2 class="title-footer mt-4 text-center">Dirección</h2>
-                        <p class="text-center mt-0" >
-                        San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
-                        </p>
-                    </div>
-
-                    <div class="">
-                        <h2 class="title-footer mt-4 text-center">Dirección</h2>
-                        <p class="text-center mt-0" >
-                        San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
-                        </p>
-                    </div>
-
-                </section>
-
-            </div>
-           
-    </footer>
-            
-    <footer class="footer">
-            
-            <div class="container">
-                
-                <section class="row">
-                    
-                <div class="col-lg-2 offset-lg-1">
-                    <img src="./assets/img/logo-footersvg.svg" class="logo-footer" width="186" height="177" alt="">
-                </div>
-        
-                <div class="links-footer  col-lg-3">
-                    <h2 class="title-footer text-cnte">Dirección</h2>
-                    <p class="text-footer" >
-                        San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
-                    </p>
-                </div>
-        
-                <div class="links-footer col-lg-3">
-                    <h2 class="title-footer">Email</h2>
-                    <p  class="text-footer text-footer-email">
-                        contacto@symcg.cl
-                    </p>
-                </div>
-        
-                <div class="links-footer col-lg-2">
-                    <h2 class="title-footer">Teléfonos</h2>
-                    <li><a href="#" class="footer-phone">  2 32450625</a> </li>
-                    <li><a href="#" class="footer-phone"> 2 32450626</a> </li>
-                </div>
-                        
-            </section>
-                
-    </footer>
-        
-    <footer class="footer-copy pb-3 mt-5">
-        <p class="text-center text-footer">
-            © 2023 S&M GROUP. Todos los derechos Reservados.
-        </p>
-    </footer>
     
-    <!-- JAVASCRIPT BOOTSTRAP5 !!!-->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

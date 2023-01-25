@@ -27,69 +27,70 @@
 <body class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <!--NAV-->
     <!--===-->
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light shadow fixed-top">
-
+    <nav class="navbar navbar-expand-lg fixed-top shadow">
         <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <li class="nav-item">
+                <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+            </li>
 
-            <a class="navbar-brand" href="#home" style="position: relative;left:18px;">
-                <img src="./assets/img/logo.svg"  alt="logo">
-            </a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportedContent" aria-expanded="false" 
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="container collapse navbar-collapse">
-                
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#home">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">Quiénes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#reels">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#clientes">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="busqueda.html">Búsqueda de Profesionales</a></li>
+                  <li><a class="dropdown-item" href="headhunting.html">Head Hunting</a></li>
+                  <li><a class="dropdown-item" href="evaluacion.html">Evaluación Psicológica y de potencial</a></li>
+                  <li><a class="dropdown-item" href="capacitacion.html">Servicios de Capacitación</a></li>
+                  <li><a class="dropdown-item" href="consultoria.html">Proyectos de consultoría</a></li>
                 </ul>
-    
-                <div class="nav-right-setting">
-                    <div class="container">
-                        <ul class="navbar-nav nav-right">
-                            <li class="nav-item ">
-                                <a href="https://www.instagram.com/vocestoons/">
-                                    <img src="./assets/img/facebook.svg" style="position:relative; top:1px;" alt="instagram" >
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="https://www.instagram.com/vocestoons/">
-                                    <img src="./assets/img/twitter.svg" style="position:relative; top:2px;" alt="instagram" >
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="https://www.instagram.com/vocestoons/">
-                                    <img src="./assets/img/linkedin.svg" style="position:relative; top:-5px;" alt="instagram" >
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="mailto:contacto@vocestoons.cl"> 
-                                    <img src="./assets/img/email.svg" style="position:relative; top:2px;" id="gmail-icon" alt="gmail">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-        </div>
+              </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contácto</a>
+            </li>
+            
+            </ul>
+
+            <div class="d-flex" role="search">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="./assets/img/facebook.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="./assets/img/twitter.svg" alt="">
+                        </a>
+                    </li>
         
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="./assets/img/email.svg" alt="">
+                        </a>
+                    </li>
+
+                    </ul>
+            </div>
+        </div>
+        </div>
     </nav>
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" tabindex="0" data-bs-smooth-scroll="true">
@@ -98,7 +99,7 @@
 
         <h2 class="mt-5 pt-5 text-center">Contáctanos a tráves de este formulario</h2>
 
-        <form class="form col-8 col-lg-8 mt-5 offset-2">
+        <form class="form col-8 col-lg-4  mt-5 offset-lg-4" >
 
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -131,45 +132,48 @@
     <!-- FOOTER -->
     <!---====== -->
             
-    <footer class="footer">
-
-        <section class="row">
-                    
-            <div class="col-lg-2 offset-lg-1">
-
-                <img src="./assets/img/logo-footersvg.svg" class="logo-footer" width="186" height="177" alt="">
-             
-            </div>
-
-            <div class="links-footer  col-lg-3 offset-1">
-                <h2 class="title-footer">Dirección</h2>
-                <p class="text-footer" style="text-align:left ; position:relative; right:10px;">
-                    San Pío X 2445, Oficina 102.Providencia, Santiago.Teléfonos: 2 32450625/ 2 32450626
-                </p>
-            </div>
-
-            <div class="links-footer col-lg-3">
-                <h2>Email</h2>
-                <p  class="text-footer-email" style="text-align:left !important; position:relative; right:10px;">
-                    contacto@symcg.cl
-                </p>
-            </div>
-
-            <div class="links-footer col-lg-2">
-                <h2>Teléfonos</h2>
-                <li><a href="#"> 2 32450625</a> </li>
-                <li><a href="#"> 2 32450626</a> </li>
-            </div>
-                    
-        </section>
+    <div class="container mt-5 pt-5">
+            
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top offset-lg-1">
+            
         
-    </footer>
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <img src="./assets/img/logo-footersvg.svg" alt="">
+                </a>
+                <p class="text-muted">&copy; 2023 S&M Group</p>
+            </div>
+        
+            <div class="col-lg-1 col-md-3">
 
-    <footer class="footer-copy pb-3">
-        <p class="text-center text-footer">
-            © 2023 S&M GROUP. Todos los derechos Reservados.
-        </p>
-    </footer>
+            </div>
+        
+            <div class="col-md-12 col-lg-3 mb-3">
+                <h5>Dirección</h5>
+                <ul class="nav flex-column">
+                    San Pío X 2445, Oficina 102.
+                    Providencia, Santiago.
+                </ul>
+            </div>
+        
+            <div class="col-md-12  col-lg-3 mb-3">
+                <h5>Email</h5>
+                <ul class="nav flex-column">
+                    contacto@symcg.cl
+                </ul>
+            </div>
+        
+            <div class="col-md-12 col-lg-2 mb-3">
+                <h5>Teléfonos</h5>
+                <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">2 32450625</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">2 32450626</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+
 
 </body>
 </html>

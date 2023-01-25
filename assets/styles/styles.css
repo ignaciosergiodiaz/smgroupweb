@@ -33,6 +33,34 @@ li{
     background-repeat: no-repeat;
 }
 
+.carousel2{
+    background-image: url('./../img/carousel2.png');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.carousel3{
+    background-image: url('./../img/camp-team.png');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.carousel4{
+    background-image: url('./../img/annie-spratt-g9KFpAfQ5bc-unsplash.jpg');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.carousel5{
+    background-image: url('./../img/thisisengineering-raeng-h6gCRTCxM7o-unsplash.jpg');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
 .carousel-caption{
     position: relative;
     top:310px;
@@ -49,10 +77,38 @@ li{
     border-style: none !important;
 }
 
+.img-about{
+    border-radius: 40px;
+}
+
+.bg{
+    background-image: url('./../img/bg-about.svg');
+    background-size: cover;
+    padding: 2rem;
+
+
+    background-repeat: no-repeat;
+}
+
+input[type="text"]{
+    border-radius: 16px !important;
+    padding: 10px ;
+}
+
+input[type="email"]{
+    border-radius: 16px !important;
+    padding: 10px ;
+}
+
+textarea{
+    border-radius: 16px !important;
+}
+
+
 @media (max-width:1200px){
     .carousel1{
         background-image: url('./../img/carousel-tablet.png');
-        height: 100vh;
+        height: 100% !important;
         background-size:cover;
         position: relative;
         top:80px;

@@ -41,7 +41,7 @@ li{
 }
 
 .carousel3{
-    background-image: url('./../img/camp-team.png');
+    background-image: url('./../img/carousel3.png');
     height: 100vh;
     background-position:center;
     background-repeat: no-repeat;
@@ -90,6 +90,21 @@ li{
     background-repeat: no-repeat;
 }
 
+.valor-agregado{
+    background-color: transparent !important;
+}
+
+.services{
+    background-color:#FFF !important;
+    height: auto;
+}
+
+.carousel-caption{
+    text-shadow: 3px 4px 4px #000 !important;
+    font-weight: bolder !important;
+}
+
+
 input[type="text"]{
     border-radius: 16px !important;
     padding: 10px ;
@@ -104,8 +119,54 @@ textarea{
     border-radius: 16px !important;
 }
 
+@media (max-width:2400px){
+
+    .carousel1{
+        background-image: url('./../img/caorusel1-4k.png');
+        height: 100vh;
+        background-size:cover;
+        position: relative;
+        top:80px;
+        background-repeat: no-repeat;
+    }
+
+    .carousel2{
+        background-image: url('./../img/carousel2-4k.png');
+        height: 100vh;
+        background-size:cover;
+        position: relative;
+        top:80px;
+        background-repeat: no-repeat;
+    }
+
+    .carousel3{
+        background-image: url('./../img/carousel3-4k.png');
+        height: 100vh;
+        background-size:cover;
+        position: relative;
+        top:80px;
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+
+@media (max-width:904px){
+    body{
+        text-align: center !important;
+    }
+
+}
+
 
 @media (max-width:500px){
+
+
+    body{
+        text-align: center !important;
+    }
+
     .carousel1{
         background-image: url('./../img/carousel-mobile1.png');
         height: 100vh;

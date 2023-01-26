@@ -152,12 +152,8 @@ textarea{
 
 }
 
-@media (max-width:904px){
-    body{
-        text-align: center !important;
-    }
 
-}
+
 
 
 @media (max-width:500px){
@@ -166,6 +162,13 @@ textarea{
     body{
         text-align: center !important;
     }
+
+    .logofooter{
+        position: relative;
+        left:24px;
+    }
+
+    
 
     .carousel1{
         background-image: url('./../img/carousel-mobile1.png');
